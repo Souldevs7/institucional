@@ -30,16 +30,18 @@ const MainBanner = () => {
                 </div>
                 <div className="col-lg-6">
                   <div className="main-banner-content">
-                    <h1>We're an IT agency</h1>
+                    <h1>Nós somos um Time digital</h1>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
+						Construindo o futuro com tecnologia inovação.
+                    </p>
+                    <p>
+
+						E transformando desafios em oportunidades com a ajuda da tecnologia.
                     </p>
 
                     <Link href="/contact" legacyBehavior>
-                      <a className="btn btn-primary">Get Started</a>
+                      <a className="btn btn-primary">Vamos Começar</a>
                     </Link>
 
                     <Link href="/#play-video" legacyBehavior>
@@ -50,7 +52,7 @@ const MainBanner = () => {
                         }}
                         className="btn btn-secondary"
                       >
-                        <i className="icofont-ui-play"></i> How it works
+                        <i className="icofont-ui-play"></i> Como trabalhamos
                       </a>
                     </Link>
                   </div>

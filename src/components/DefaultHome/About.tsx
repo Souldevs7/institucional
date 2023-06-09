@@ -44,43 +44,35 @@ class About extends Component {
               <div className="col-lg-7 col-md-12">
                 <div className="about-content about-content-two">
                   <div className="section-title">
-                    <h2>About Us</h2>
+                    <h2>Sobre Nós</h2>
                     <p>
-                      Lorem ipsum dolor sit amet, con se ctetur adipiscing elit.
-                      In sagittis eg esta ante, sed viverra nunc tinci dunt nec
-                      elei fend et tiram.
+                      Somos uma equipe apaixonada por oferecer soluções de alta qualidade e inovadoras para atender às necessidades dos nossos clientes. Com anos de experiência no setor, estabelecemos um histórico sólido de sucesso, construindo relacionamentos duradouros com empresas de diferentes setores. 
                     </p>
                   </div>
 
                   <div className="about-text">
-                    <h4>Who We Are</h4>
+                    <h4>Missão</h4>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi architecto beatae vitae dicta sunt explicabo.
+                    Nossa missão é utilizar a tecnologia como uma ferramenta poderosa para fazer do mundo um lugar melhor. Através do trabalho conjunto de nossos programadores talentosos e comprometidos, buscamos criar soluções inovadoras que tenham um impacto positivo nas pessoas e na sociedade. Nosso objetivo é utilizar a tecnologia para enfrentar desafios globais, promovendo a inclusão e o progresso.
                     </p>
                   </div>
 
                   <div className="about-text">
-                    <h4>Our History</h4>
+                    <h4>Visão</h4>
                     <p>
-                      But I must explain to you how all this mistaken idea of
-                      denouncing pleasure and praising pain was born and I will
-                      give you a complete account of the system, and expound the
-                      actual teachings of the great explorer of the truth.
+                    Nossa visão é ser referência no mercado, reconhecidos como líderes em oferecer soluções inovadoras e de alto impacto para nossos clientes. Buscamos constantemente antecipar as tendências do mercado e adaptar-nos às mudanças tecnológicas, a fim de oferecer soluções que impulsionem o sucesso e a transformação dos negócios.
                     </p>
                   </div>
 
                   <div className="about-text">
-                    <h4>Our Mission</h4>
-                    <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      qui blanditiis praesentium voluptatum deleniti atque
-                      corrupti quos dolores et quas molestias excepturi sint
-                      occaecati cupiditate non provident, similique sunt in
-                      culpa.
-                    </p>
+                    <h4>Valores</h4>
+
+                        <p> Inovação: Buscamos constantemente novas formas de aplicar a tecnologia para resolver problemas complexos e atender às necessidades emergentes da sociedade. Encorajamos a criatividade e o pensamento fora da caixa em todos os aspectos de nosso trabalho.</p>
+                        <p> Compromisso com a excelência: Valorizamos a qualidade e a excelência em tudo o que fazemos. Nosso compromisso é entregar soluções tecnológicas de alto padrão, que se destaquem pela sua eficiência e confiabilidade.</p>
+                        <p> Impacto positivo: Nosso objetivo é utilizar a tecnologia como uma força transformadora para o bem. Buscamos criar soluções que tenham um impacto positivo nas vidas das pessoas e na sociedade como um todo. Estamos comprometidos em deixar um legado positivo para as gerações futuras.</p>
+                        <p>  Colaboração e diversidade: Reconhecemos o poder da colaboração e da diversidade de ideias. Acreditamos que a combinação de perspectivas e experiências diversas impulsiona a inovação e enriquece nosso trabalho. Fomentamos um ambiente inclusivo, onde todos são valorizados e respeitados.</p>
+                        <p>  Ao adotar esses valores em nosso dia a dia, procuramos estabelecer uma cultura organizacional baseada na busca pela excelência, pela inovação e pelo impacto positivo, com a convicção de que a tecnologia tem o poder de transformar vidas e fazer do mundo um lugar melhor. </p>
+
                   </div>
                 </div>
               </div>

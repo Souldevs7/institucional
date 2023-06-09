@@ -16,7 +16,7 @@ class Footer extends Component {
                   <div className="logo">
                     <Link href="/" legacyBehavior>
                       <a>
-                        <img src="/images/logo.svg" alt="image" />
+                        <img src="/images/logo-white.svg" alt="image" />
                       </a>
                     </Link>
                   </div>

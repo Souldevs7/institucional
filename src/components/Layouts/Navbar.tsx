@@ -27,7 +27,7 @@ const Navbar = () => {
             <Link href="/">
               <a className="navbar-brand">
                 <img
-                  src="/images/logo.svg"
+                  src="/images/logo-white.svg"
                   alt="logo"
                   style={{ width: "320px" }}
                 />

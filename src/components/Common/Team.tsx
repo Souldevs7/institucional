@@ -8,10 +8,9 @@ class Team extends Component {
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Skilled Team</h2>
+            <h2>Habilidades do Time</h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Nosso time é composto por profissionais altamente habilidosos e experientes, com expertise em diversas áreas-chave. Temos especialistas em desenvolvimento de software, design de interfaces, gerenciamento de projetos e análise de dados.
             </p>
           </div>
 
@@ -19,32 +18,32 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/circle-team1.jpg"
+                  src="/images/team/luiz.png"
                   alt="Image"
                   className="rounded-circle"
                 />
 
                 <div className="team-caption">
-                  <h3>James White</h3>
-                  <p>CEO & Founder</p>
+                  <h3>Luiz Fernando Brogliatto Ferreira</h3>
+                  <p>Frontend Especialista</p>
                   <ul>
                     <li>
-                      <a href="linkedin.com" target="_blank">
+                      <a href="linkedin.com/in/luiz0067" target="_blank">
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/" target="_blank">
+                      <a href="https://twitter.com/BrogliattoLuiz" target="_blank">
                         <i className="icofont-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/" target="_blank">
+                      <a href="https://www.facebook.com/LuizFernandoBrogliattoFerreira" target="_blank">
                         <i className="icofont-facebook"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/" target="_blank">
+                      <a href="https://www.instagram.com/inprolink" target="_blank">
                         <i className="icofont-instagram"></i>
                       </a>
                     </li>
