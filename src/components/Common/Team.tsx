@@ -8,7 +8,7 @@ class Team extends Component {
       <div className="pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <h2>Habilidades do Time</h2>
+            <h2>Nosso Time</h2>
             <p>
               Nosso time é composto por profissionais altamente habilidosos e experientes, com expertise em diversas áreas-chave. Temos especialistas em desenvolvimento de software, design de interfaces, gerenciamento de projetos e análise de dados.
             </p>

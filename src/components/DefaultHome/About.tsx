@@ -60,7 +60,7 @@ class About extends Component {
                   <div className="about-text">
                     <h4>Visão</h4>
                     <p>
-                    Nossa visão é ser referência no mercado, reconhecidos como líderes em oferecer soluções inovadoras e de alto impacto para nossos clientes. Buscamos constantemente antecipar as tendências do mercado e adaptar-nos às mudanças tecnológicas, a fim de oferecer soluções que impulsionem o sucesso e a transformação dos negócios.
+                    Ser referencia internacional no fornecimento de soluções tecnológicas inovadoras que transformam a maneira como as pessoas vivem, trabalham e se conectam. Buscamos impulsionar a inovação, criar parcerias de longo prazo com os clientes e ser um parceiro confiável. Nossa visão é ser uma empresa responsável, sustentável e líder no avanço de soluções tecnológicas.
                     </p>
                   </div>
 

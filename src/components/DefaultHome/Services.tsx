@@ -10,11 +10,10 @@ class Services extends Component {
           <div className="container">
             <div className="section-title">
               <h2>Nossos Serviços</h2>
-              <p>
-              Bem-vindo à nossa página de serviços, onde buscamos oferecer soluções sob medida para atender às suas necessidades. Nossa empresa está empenhada em fornecer serviços de qualidade excepcional, impulsionando o sucesso e a satisfação dos nossos clientes. 
+              <p className="text-justify" style={{textAlign:"center"}}>
+                Bem-vindo à nossa página de serviços, onde buscamos oferecer soluções sob medida para atender às suas necessidades. Nossa empresa está empenhada em fornecer serviços de qualidade excepcional, impulsionando o sucesso e a satisfação dos nossos clientes. 
               </p>
-              desenvolvimento de sistemas
-              hospedagem e suporte de sites
+             
             </div>
 
               

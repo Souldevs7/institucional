@@ -36,11 +36,7 @@ export default function Home() {
 
       <Team />
 
-      <FunFacts />
-
-      <LatestNewsSlider />
-
-      <CtaArea />
+     
 
       <Partner />
 
