@@ -1,7 +1,11 @@
 "use client";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
 import Link from "next/link";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab, faGithub } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fab);
 
 class Team extends Component {
   render() {
@@ -11,13 +15,14 @@ class Team extends Component {
           <div className="section-title">
             <h2>Nosso Time</h2>
             <p>
-              Nosso time é composto por profissionais altamente habilidosos e experientes, com expertise em diversas áreas-chave. Temos especialistas em desenvolvimento de software, design de interfaces, gerenciamento de projetos e análise de dados.
+              Nosso time é composto por profissionais altamente habilidosos e
+              experientes, com expertise em diversas áreas-chave. Temos
+              especialistas em desenvolvimento de software, design de
+              interfaces, gerenciamento de projetos e análise de dados.
             </p>
           </div>
 
           <div className="row justify-content-center">
-            
-
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
@@ -144,7 +149,6 @@ class Team extends Component {
               </div>
             </div>
 
-
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
@@ -162,23 +166,24 @@ class Team extends Component {
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
-                    
+
                     <li>
-                      <a href="https://github.com/luiz0067yahoo" target="_blank">
-                        <FontAwesomeIcon icon="fa-brands fa-github" />
+                      <a
+                        href="https://github.com/luiz0067yahoo"
+                        target="_blank"
+                      >
+                        <FontAwesomeIcon icon={["fab", "github"]} />
                       </a>
                     </li>
                     <li>
                       <a href="https://dribbble.com/" target="_blank">
-                        <FontAwesomeIcon icon="fa-brands fa-github" />
+                        <FontAwesomeIcon icon={faGithub} />
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-
-
           </div>
         </div>
       </div>
