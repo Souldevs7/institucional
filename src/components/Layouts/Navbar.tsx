@@ -22,7 +22,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           <div
             className="container-fluid"
-            style={{ flexDirection: "row-reverse" }}
+            
           >
             <Link href="/">
               <a className="navbar-brand">
@@ -53,11 +53,11 @@ const Navbar = () => {
             <div
               className={classOne}
               id="navbarSupportedContent"
-              style={{ flexDirection: "row-reverse" }}
+              
             >
               <ul
                 className="navbar-nav"
-                style={{ flexDirection: "row-reverse" }}
+                
               >
                 <li className="nav-item">
                   <Link href="#">

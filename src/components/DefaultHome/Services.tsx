@@ -17,7 +17,7 @@ class Services extends Component {
             </div>
 
               
-            <div className="row justify-content-center flex-row-reverse">
+            <div className="row justify-content-center ">
 
               <div className="col-lg-4 col-sm-6 text-center">
                 <div className="service-card-one">

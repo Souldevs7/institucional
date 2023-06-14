@@ -1,4 +1,5 @@
 "use client";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React, { Component } from "react";
 import Link from "next/link";
 
@@ -15,47 +16,7 @@ class Team extends Component {
           </div>
 
           <div className="row justify-content-center">
-            <div className="col-lg-3 col-sm-6">
-              <div className="team-card text-center">
-                <img
-                  src="/images/team/luiz.png"
-                  alt="Image"
-                  className="rounded-circle"
-                />
-
-                <div className="team-caption">
-                  <h3>Luiz Fernando Brogliatto Ferreira</h3>
-                  <p>Frontend Especialista</p>
-                  <ul>
-                    <li>
-                      <a href="linkedin.com/in/luiz0067" target="_blank">
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://twitter.com/BrogliattoLuiz" target="_blank">
-                        <i className="icofont-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/LuizFernandoBrogliattoFerreira" target="_blank">
-                        <i className="icofont-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/inprolink" target="_blank">
-                        <i className="icofont-instagram"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://dribbble.com/" target="_blank">
-                        <i className="icofont-dribbble"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            
 
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
@@ -182,6 +143,42 @@ class Team extends Component {
                 </div>
               </div>
             </div>
+
+
+            <div className="col-lg-3 col-sm-6">
+              <div className="team-card text-center">
+                <img
+                  src="/images/team/luiz.png"
+                  alt="Image"
+                  className="rounded-circle"
+                />
+
+                <div className="team-caption">
+                  <h3>Luiz Brogliatto </h3>
+                  <p>Frontend Especialista</p>
+                  <ul>
+                    <li>
+                      <a href="linkedin.com/in/luiz0067" target="_blank">
+                        <i className="icofont-linkedin"></i>
+                      </a>
+                    </li>
+                    
+                    <li>
+                      <a href="https://github.com/luiz0067yahoo" target="_blank">
+                        <FontAwesomeIcon icon="fa-brands fa-github" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://dribbble.com/" target="_blank">
+                        <FontAwesomeIcon icon="fa-brands fa-github" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
           </div>
         </div>
       </div>

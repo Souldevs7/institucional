@@ -19,27 +19,7 @@ class About extends Component {
         <section className="about-area ptb-100">
           <div className="container">
             <div className="row align-items-center">
-              <div className="col-lg-5 col-md-12">
-                <div className="about-image">
-                  <img
-                    src="/images/about-img1.jpg"
-                    alt="image"
-                    className="rounded-10"
-                  />
-
-                  <div className="video-box">
-                    <div
-                      onClick={(e) => {
-                        e.preventDefault();
-                        this.openModal();
-                      }}
-                      className="video-btn"
-                    >
-                      <i className="pe-7s-play"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="col-lg-7 col-md-12">
                 <div className="about-content about-content-two">
@@ -73,6 +53,27 @@ class About extends Component {
                         <p>  Colaboração e diversidade: Reconhecemos o poder da colaboração e da diversidade de ideias. Acreditamos que a combinação de perspectivas e experiências diversas impulsiona a inovação e enriquece nosso trabalho. Fomentamos um ambiente inclusivo, onde todos são valorizados e respeitados.</p>
                         <p>  Ao adotar esses valores em nosso dia a dia, procuramos estabelecer uma cultura organizacional baseada na busca pela excelência, pela inovação e pelo impacto positivo, com a convicção de que a tecnologia tem o poder de transformar vidas e fazer do mundo um lugar melhor. </p>
 
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-5 col-md-12">
+                <div className="about-image">
+                  <img
+                    src="/images/about-img1.jpg"
+                    alt="image"
+                    className="rounded-10"
+                  />
+
+                  <div className="video-box">
+                    <div
+                      onClick={(e) => {
+                        e.preventDefault();
+                        this.openModal();
+                      }}
+                      className="video-btn"
+                    >
+                      <i className="pe-7s-play"></i>
+                    </div>
                   </div>
                 </div>
               </div>
