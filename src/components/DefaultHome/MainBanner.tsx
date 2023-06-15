@@ -140,12 +140,6 @@ class MainBanner extends Component {
         </div>
 
         {/* If you want to change the video need to update below videoID */}
-        <ModalVideo
-          channel="youtube"
-          isOpen={this.state.isOpen}
-          videoId="_ysd-zHamjk"
-          onClose={() => this.setState({ isOpen: false })}
-        />
       </>
     );
   }
