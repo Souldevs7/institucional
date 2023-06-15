@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 class LatestNews extends Component {
   render() {
@@ -20,7 +21,7 @@ class LatestNews extends Component {
                 <div className="post-image">
                   <Link href="/blog-details" legacyBehavior>
                     <a>
-                      <img src="/images/blog/blog1.jpg" alt="image" />
+                      <Image src="/images/blog/blog1.jpg" alt="image" />
                     </a>
                   </Link>
                 </div>
@@ -62,7 +63,7 @@ class LatestNews extends Component {
                       <div className="post-image">
                         <Link href="/blog-details" legacyBehavior>
                           <a>
-                            <img src="/images/blog/blog2.jpg" alt="image" />
+                            <Image src="/images/blog/blog2.jpg" alt="image" />
                           </a>
                         </Link>
                       </div>
@@ -107,7 +108,7 @@ class LatestNews extends Component {
                       <div className="post-image">
                         <Link href="/blog-details" legacyBehavior>
                           <a>
-                            <img src="/images/blog/blog3.jpg" alt="image" />
+                            <Image src="/images/blog/blog3.jpg" alt="image" />
                           </a>
                         </Link>
                       </div>
@@ -152,7 +153,7 @@ class LatestNews extends Component {
                       <div className="post-image">
                         <Link href="/blog-details" legacyBehavior>
                           <a>
-                            <img src="/images/blog/blog4.jpg" alt="image" />
+                            <Image src="/images/blog/blog4.jpg" alt="image" />
                           </a>
                         </Link>
                       </div>
@@ -197,7 +198,7 @@ class LatestNews extends Component {
                       <div className="post-image">
                         <Link href="/blog-details" legacyBehavior>
                           <a>
-                            <img src="/images/blog/blog1.jpg" alt="image" />
+                            <Image src="/images/blog/blog1.jpg" alt="image" />
                           </a>
                         </Link>
                       </div>

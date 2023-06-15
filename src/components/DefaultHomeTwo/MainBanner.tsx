@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 import Particles from "react-particles-js";
 
 const particleOpt = {
@@ -94,7 +94,7 @@ class MainBanner extends Component {
 
                   <div className="col-lg-6">
                     <div className="banner-animation-image2">
-                      <img
+                      <Image
                         src="/images/banner-img3.png"
                         className="main-pic animate__animated animate__zoomIn animate__delay-0.5s"
                         alt="image"

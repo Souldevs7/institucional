@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 class ServiceDetailsContent extends Component {
   state = {
     isOpen: false,
@@ -14,18 +14,15 @@ class ServiceDetailsContent extends Component {
       <>
         <section className="services-details-area ptb-100">
           {/* If you want to change the video need to update below videoID */}
-          <ModalVideo
-            channel="youtube"
-            isOpen={this.state.isOpen}
-            videoId="_ysd-zHamjk"
-            onClose={() => this.setState({ isOpen: false })}
-          />
 
           <div className="container">
             <div className="row">
               <div className="col-lg-12 col-md-12">
                 <div className="services-details-image">
-                  <img src="/images/services/single-service.jpg" alt="image" />
+                  <Image
+                    src="/images/services/single-service.jpg"
+                    alt="image"
+                  />
 
                   <div className="video-box">
                     <div

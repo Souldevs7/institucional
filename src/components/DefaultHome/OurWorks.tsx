@@ -1,7 +1,7 @@
 "use client";
 import React, { Component } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 class OurWorks extends Component {
   render() {
     return (
@@ -11,7 +11,9 @@ class OurWorks extends Component {
             <div className="section-title">
               <h2>Nosso Trabalho</h2>
               <p>
-                Comprometidos com a excelência, entregamos resultados que superam expectativas, garantindo que cada projeto seja executado com qualidade, inovação e dedicação
+                Comprometidos com a excelência, entregamos resultados que
+                superam expectativas, garantindo que cada projeto seja executado
+                com qualidade, inovação e dedicação
               </p>
             </div>
 
@@ -37,7 +39,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape1.png"
                       alt="logo"
                     />
@@ -66,7 +68,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape2.png"
                       alt="logo"
                     />
@@ -97,7 +99,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape3.png"
                       alt="logo"
                     />
@@ -128,7 +130,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape4.png"
                       alt="logo"
                     />
@@ -157,7 +159,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape5.png"
                       alt="logo"
                     />
@@ -186,7 +188,7 @@ class OurWorks extends Component {
                   </Link>
 
                   <div className="shape">
-                    <img
+                    <Image
                       src="/images/case-studies/studie-shape6.png"
                       alt="logo"
                     />

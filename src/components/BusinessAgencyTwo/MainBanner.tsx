@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 import VisibilitySensor from "react-visibility-sensor";
 import dynamic from "next/dynamic";
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
@@ -106,7 +106,7 @@ class MainBanner extends Component {
               </div>
 
               <div className="creative-shape">
-                <img src="/images/curve-shape.svg" alt="logo" />
+                <Image src="/images/curve-shape.svg" alt="logo" />
               </div>
             </div>
 
@@ -170,7 +170,7 @@ class MainBanner extends Component {
               </div>
 
               <div className="creative-shape">
-                <img src="/images/curve-shape.svg" alt="logo" />
+                <Image src="/images/curve-shape.svg" alt="logo" />
               </div>
             </div>
 
@@ -234,7 +234,7 @@ class MainBanner extends Component {
               </div>
 
               <div className="creative-shape">
-                <img src="/images/curve-shape.svg" alt="logo" />
+                <Image src="/images/curve-shape.svg" alt="logo" />
               </div>
             </div>
           </OwlCarousel>

@@ -2,10 +2,8 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-const ModalVideo = dynamic(() => import("react-modal-video"), {
-  ssr: false,
-});
 
+import Image from "next/image";
 const MainBanner = () => {
   const [isOpen, setOpen] = React.useState(false);
 
@@ -22,7 +20,7 @@ const MainBanner = () => {
               <div className="row align-items-center">
                 <div className="col-lg-6">
                   <div className="animate-banner-image">
-                    <img
+                    <Image
                       src="/images/animate-banner-img1.jpg"
                       alt="Animate image"
                     />
@@ -32,12 +30,10 @@ const MainBanner = () => {
                   <div className="main-banner-content">
                     <h1>Nós somos um Time digital</h1>
 
+                    <p>Construindo o futuro com tecnologia inovação.</p>
                     <p>
-						Construindo o futuro com tecnologia inovação.
-                    </p>
-                    <p>
-
-						E transformando desafios em oportunidades com a ajuda da tecnologia.
+                      E transformando desafios em oportunidades com a ajuda da
+                      tecnologia.
                     </p>
 
                     <Link href="/contact" legacyBehavior>
@@ -62,14 +58,6 @@ const MainBanner = () => {
           </div>
         </div>
       </div>
-
-      {/* If you want to change the video need to update below videoID */}
-      <ModalVideo
-        channel="youtube"
-        isOpen={isOpen}
-        videoId="_ysd-zHamjk"
-        onClose={() => setOpen(false)}
-      />
     </>
   );
 };

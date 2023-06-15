@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 class WhyChooseUs extends Component {
   state = {
     isOpen: false,
@@ -59,7 +59,7 @@ class WhyChooseUs extends Component {
 
             <div className="col-lg-5 col-md-12">
               <div className="about-image right-image">
-                <img
+                <Image
                   src="/images/about-img3.jpg"
                   alt="image"
                   className="rounded-10"

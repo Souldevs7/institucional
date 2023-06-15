@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 class MainBanner extends Component {
   state = {
     isOpen: false,
@@ -47,7 +47,7 @@ class MainBanner extends Component {
 
                   <div className="col-lg-6">
                     <div className="banner-image">
-                      <img src="/images/banner-img2.png" alt="image" />
+                      <Image src="/images/banner-img2.png" alt="image" />
                     </div>
                   </div>
                 </div>

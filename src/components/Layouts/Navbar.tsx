@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "../../utils/ActiveLink";
-
+import Image from "next/image";
 const Navbar = () => {
   const [collapsed, setCollapsed] = React.useState(true);
 
@@ -20,13 +20,10 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
-          <div
-            className="container-fluid"
-            
-          >
+          <div className="container-fluid">
             <Link href="/">
               <a className="navbar-brand">
-                <img
+                <Image
                   src="/images/logo-white.svg"
                   alt="logo"
                   style={{ width: "320px" }}
@@ -50,15 +47,8 @@ const Navbar = () => {
               <span className="icon-bar bottom-bar"></span>
             </button>
 
-            <div
-              className={classOne}
-              id="navbarSupportedContent"
-              
-            >
-              <ul
-                className="navbar-nav"
-                
-              >
+            <div className={classOne} id="navbarSupportedContent">
+              <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link href="#">
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>

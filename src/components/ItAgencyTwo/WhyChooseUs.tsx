@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 class WhyChooseUs extends Component {
   state = {
     isOpen: false,
@@ -62,7 +62,7 @@ class WhyChooseUs extends Component {
 
               <div className="col-lg-5 col-md-12">
                 <div className="about-image right-image">
-                  <img
+                  <Image
                     src="/images/about-img3.jpg"
                     alt="image"
                     className="rounded-10"
@@ -85,14 +85,6 @@ class WhyChooseUs extends Component {
               </div>
             </div>
           </div>
-
-          {/* If you want to change the video need to update below videoID */}
-          <ModalVideo
-            channel="youtube"
-            isOpen={this.state.isOpen}
-            videoId="_ysd-zHamjk"
-            onClose={() => this.setState({ isOpen: false })}
-          />
         </section>
       </>
     );

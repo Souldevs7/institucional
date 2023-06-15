@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
+import Image from "next/image";
 
 const options = {
   loop: true,
@@ -62,7 +63,7 @@ class LatestNewsSlider extends Component {
                 <div className="blog-image">
                   <Link href="/blog-details" legacyBehavior>
                     <a>
-                      <img src="/images/blog/blog1.jpg" alt="image" />
+                      <Image src="/images/blog/blog1.jpg" alt="image" />
                     </a>
                   </Link>
 
@@ -99,7 +100,7 @@ class LatestNewsSlider extends Component {
                 <div className="blog-image">
                   <Link href="/blog-details" legacyBehavior>
                     <a>
-                      <img src="/images/blog/blog2.jpg" alt="image" />
+                      <Image src="/images/blog/blog2.jpg" alt="image" />
                     </a>
                   </Link>
 
@@ -137,7 +138,7 @@ class LatestNewsSlider extends Component {
                 <div className="blog-image">
                   <Link href="/blog-details" legacyBehavior>
                     <a>
-                      <img src="/images/blog/blog3.jpg" alt="image" />
+                      <Image src="/images/blog/blog3.jpg" alt="image" />
                     </a>
                   </Link>
 
@@ -175,7 +176,7 @@ class LatestNewsSlider extends Component {
                 <div className="blog-image">
                   <Link href="/blog-details" legacyBehavior>
                     <a>
-                      <img src="/images/blog/blog4.jpg" alt="image" />
+                      <Image src="/images/blog/blog4.jpg" alt="image" />
                     </a>
                   </Link>
 

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
-
+import Image from "next/image";
 class About extends Component {
   state = {
     isOpen: false,
@@ -17,7 +17,7 @@ class About extends Component {
             <div className="row align-items-center">
               <div className="col-lg-5 col-md-12">
                 <div className="about-image">
-                  <img
+                  <Image
                     src="/images/about-img2.jpg"
                     alt="image"
                     className="rounded-10"
@@ -92,14 +92,6 @@ class About extends Component {
               </div>
             </div>
           </div>
-
-          {/* If you want to change the video need to update below videoID */}
-          <ModalVideo
-            channel="youtube"
-            isOpen={this.state.isOpen}
-            videoId="_ysd-zHamjk"
-            onClose={() => this.setState({ isOpen: false })}
-          />
         </section>
       </>
     );

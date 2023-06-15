@@ -4,7 +4,7 @@ import React, { Component } from "react";
 import Link from "next/link";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faGithub } from "@fortawesome/free-brands-svg-icons";
-
+import Image from "next/image";
 library.add(fab);
 
 class Team extends Component {
@@ -25,7 +25,7 @@ class Team extends Component {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/circle-team2.jpg"
                   alt="Image"
                   className="rounded-circle"
@@ -67,7 +67,7 @@ class Team extends Component {
 
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/circle-team3.jpg"
                   alt="Image"
                   className="rounded-circle"
@@ -109,7 +109,7 @@ class Team extends Component {
 
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/circle-team4.jpg"
                   alt="Image"
                   className="rounded-circle"
@@ -151,7 +151,7 @@ class Team extends Component {
 
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/luiz.png"
                   alt="Image"
                   className="rounded-circle"
