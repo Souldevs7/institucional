@@ -20,25 +20,20 @@ class CommenstForm extends Component {
                 name="comment"
                 id="comment"
                 rows={5}
-                required="required"
+                required
               ></textarea>
             </p>
             <p className="comment-form-author">
               <label>
                 Name <span className="required">*</span>
               </label>
-              <input
-                type="text"
-                id="author"
-                name="author"
-                required="required"
-              />
+              <input type="text" id="author" name="author" required />
             </p>
             <p className="comment-form-email">
               <label>
                 Email <span className="required">*</span>
               </label>
-              <input type="email" id="email" name="email" required="required" />
+              <input type="email" id="email" name="email" required />
             </p>
             <p className="comment-form-url">
               <label>Website</label>

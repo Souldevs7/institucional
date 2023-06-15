@@ -43,6 +43,7 @@ class MainBanner extends Component {
       <>
         <div className="hero-banner overly hero-bg1">
           <div id="particles-js">
+            {/* @ts-ignore */}
             <Particles params={{ ...particleOpt }} />
           </div>
 

@@ -70,6 +70,7 @@ class BestServices extends Component {
               <div className="col-lg-7 p-0">
                 <div className="services-list">
                   {this.state.display ? (
+                    //@ts-ignore
                     <OwlCarousel
                       className="services-slides owl-carousel owl-theme"
                       {...options}

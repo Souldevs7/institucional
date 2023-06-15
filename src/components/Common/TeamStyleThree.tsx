@@ -56,6 +56,7 @@ class TeamStyleThree extends Component {
           </div>
 
           {this.state.display ? (
+            //@ts-ignore
             <OwlCarousel
               className="team-slider owl-carousel owl-theme"
               {...options}

@@ -51,7 +51,7 @@ class FunFactsTwo extends Component {
 
           <div className="contact-cta-box">
             <h3>Have any questions about us?</h3>
-            <p>Don't hesitate to contact us</p>
+            <p>Dont hesitate to contact us</p>
 
             <Link href="/contact" legacyBehavior>
               <a className="btn btn-primary">Contact Us</a>
