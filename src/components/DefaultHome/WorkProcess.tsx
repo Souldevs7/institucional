@@ -1,6 +1,6 @@
 "use client";
 import React, { Component } from "react";
-
+import Image from "next/image";
 class WorkProcess extends Component {
   render() {
     return (
@@ -16,7 +16,7 @@ class WorkProcess extends Component {
             </div>
 
             <div className="work-process">
-              <img src="/images/man-with-mobile.png" alt="logo" />
+              <Image src="/images/man-with-mobile.png" alt="logo" />
 
               <div className="work-process-list">
                 <div className="single-work-process">
@@ -68,7 +68,7 @@ class WorkProcess extends Component {
                 </div>
               </div>
 
-              <img
+              <Image
                 src="/images/circle.png"
                 className="rotateme circle-image"
                 alt="image"

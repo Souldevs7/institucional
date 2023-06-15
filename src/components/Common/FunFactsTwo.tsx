@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 class FunFactsTwo extends Component {
   render() {
@@ -58,7 +59,7 @@ class FunFactsTwo extends Component {
           </div>
 
           <div className="map-bg">
-            <img src="/images/map.png" alt="map" />
+            <Image src="/images/map.png" alt="map" />
           </div>
         </div>
       </section>

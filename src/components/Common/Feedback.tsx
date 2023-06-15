@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import dynamic from "next/dynamic";
 const OwlCarousel = dynamic(import("react-owl-carousel3"));
+import Image from "next/image";
 
 const options = {
   loop: true,
@@ -35,7 +36,7 @@ class Feedback extends Component {
         <div className="container">
           <div className="feedback-list">
             <div className="quotes-icon">
-              <img src="/images/left-quote-white.png" alt="icon" />
+              <Image src="/images/left-quote-white.png" alt="icon" />
             </div>
 
             {this.state.display ? (
@@ -93,42 +94,42 @@ class Feedback extends Component {
 
         {/* Client image */}
         <div className="client-image-box">
-          <img
+          <Image
             src="/images/clients/client1.png"
             className="client1"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client2.png"
             className="client2"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client3.png"
             className="client3"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client4.png"
             className="client4"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client5.png"
             className="client5"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client6.png"
             className="client6"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client7.png"
             className="client7"
             alt="client"
           />
-          <img
+          <Image
             src="/images/clients/client8.png"
             className="client8"
             alt="client"

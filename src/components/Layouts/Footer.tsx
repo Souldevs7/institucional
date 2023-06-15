@@ -1,7 +1,7 @@
 "use client";
 import React, { Component } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 class Footer extends Component {
   render() {
     let currentYear = new Date().getFullYear();
@@ -16,7 +16,7 @@ class Footer extends Component {
                   <div className="logo">
                     <Link href="/" legacyBehavior>
                       <a>
-                        <img src="/images/logo-white.svg" alt="image" />
+                        <Image src="/images/logo-white.svg" alt="image" />
                       </a>
                     </Link>
                   </div>

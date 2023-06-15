@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 class ServiceStyleTwo extends Component {
   render() {
     return (
@@ -64,7 +64,7 @@ class ServiceStyleTwo extends Component {
 
               <div className="col-lg-6">
                 <div className="service-right-img">
-                  <img
+                  <Image
                     src="/images/services/it-service1.png"
                     alt="Service Image"
                   />
@@ -79,7 +79,7 @@ class ServiceStyleTwo extends Component {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="service-left-img">
-                  <img
+                  <Image
                     src="/images/services/it-service2.png"
                     alt="Service Image"
                   />
@@ -202,7 +202,7 @@ class ServiceStyleTwo extends Component {
 
               <div className="col-lg-6">
                 <div className="service-right-img">
-                  <img
+                  <Image
                     src="/images/services/it-service3.png"
                     alt="Service Image"
                   />
