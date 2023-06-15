@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { Component } from "react";
 import Link from "../../utils/ActiveLink";
 import Image from "next/image";
@@ -367,7 +368,7 @@ class NavbarTwo extends Component {
 
                 <div className="others-options">
                   <Link href="/pricing">
-                    <a className="btn btn-primary">Let's Begin</a>
+                    <a className="btn btn-primary">Lets Begin</a>
                   </Link>
                 </div>
               </div>

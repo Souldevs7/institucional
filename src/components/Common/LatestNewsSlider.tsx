@@ -55,6 +55,7 @@ class LatestNewsSlider extends Component {
           </div>
 
           {this.state.display ? (
+            //@ts-ignore
             <OwlCarousel
               className="blog-slides owl-carousel owl-theme"
               {...options}

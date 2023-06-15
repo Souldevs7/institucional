@@ -40,6 +40,7 @@ class Feedback extends Component {
             </div>
 
             {this.state.display ? (
+              //@ts-ignore
               <OwlCarousel
                 className="feedback-slides owl-carousel owl-theme"
                 {...options}

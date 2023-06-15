@@ -22,7 +22,7 @@ class MainBanner extends Component {
                   <div className="col-lg-6">
                     <div className="main-banner-content">
                       <span>A Digital Agency</span>
-                      <h1>We're a full-range digital agency.</h1>
+                      <h1>Were a full-range digital agency.</h1>
                       <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore

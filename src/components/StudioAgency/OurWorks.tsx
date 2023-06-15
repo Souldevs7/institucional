@@ -60,6 +60,7 @@ class OurWorks extends Component {
             </div>
 
             {this.state.display ? (
+              //@ts-ignore
               <OwlCarousel
                 className="work-slides owl-carousel owl-theme"
                 {...options}

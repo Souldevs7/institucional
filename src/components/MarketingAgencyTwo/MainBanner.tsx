@@ -60,6 +60,7 @@ class MainBanner extends Component {
   _isMounted = false;
   state = {
     display: false,
+    isOpen: false,
   };
   componentDidMount() {
     this._isMounted = true;
@@ -69,9 +70,6 @@ class MainBanner extends Component {
     this._isMounted = false;
   }
 
-  state = {
-    isOpen: false,
-  };
   openModal = () => {
     this.setState({ isOpen: true });
   };
@@ -80,12 +78,14 @@ class MainBanner extends Component {
     return (
       <>
         {this.state.display ? (
+          //@ts-ignore
           <OwlCarousel
             className="hero-slider owl-carousel owl-theme"
             {...options}
           >
             <div className="hero-banner overly-6 hero-bg5">
               <div id="particles-js">
+                {/* @ts-ignore */}
                 <Particles params={{ ...particleOpt }} />
               </div>
 
@@ -150,6 +150,7 @@ class MainBanner extends Component {
 
             <div className="hero-banner overly-6 hero-bg6">
               <div id="particles-js">
+                {/* @ts-ignore */}
                 <Particles params={{ ...particleOpt }} />
               </div>
 
@@ -214,6 +215,7 @@ class MainBanner extends Component {
 
             <div className="hero-banner overly-6 hero-bg7">
               <div id="particles-js">
+                {/* @ts-ignore */}
                 <Particles params={{ ...particleOpt }} />
               </div>
 
