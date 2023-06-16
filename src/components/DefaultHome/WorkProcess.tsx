@@ -16,7 +16,12 @@ class WorkProcess extends Component {
             </div>
 
             <div className="work-process">
-              <Image src="/images/man-with-mobile.png" alt="logo" />
+              <Image
+                src="/images/man-with-mobile.png"
+                width="320"
+                height="50"
+                alt="logo"
+              />
 
               <div className="work-process-list">
                 <div className="single-work-process">
@@ -70,6 +75,8 @@ class WorkProcess extends Component {
 
               <Image
                 src="/images/circle.png"
+                width="320"
+                height="50"
                 className="rotateme circle-image"
                 alt="image"
               />

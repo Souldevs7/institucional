@@ -39,6 +39,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape1.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>
@@ -68,6 +70,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape2.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>
@@ -99,6 +103,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape3.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>
@@ -130,6 +136,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape4.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>
@@ -159,6 +167,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape5.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>
@@ -188,6 +198,8 @@ class OurWorks extends Component {
                   <div className="shape">
                     <Image
                       src="/images/case-studies/studie-shape6.png"
+                      width="320"
+                      height="50"
                       alt="logo"
                     />
                   </div>

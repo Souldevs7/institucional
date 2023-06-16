@@ -53,6 +53,8 @@ class NavbarTwo extends Component {
                   <Image
                     src="/images/logo-white.svg"
                     className="white-logo"
+                    width="320"
+                    height="50"
                     alt="logo"
                   />
                 </a>

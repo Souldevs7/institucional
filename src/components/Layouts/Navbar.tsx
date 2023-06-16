@@ -27,7 +27,8 @@ const Navbar = () => {
                 <Image
                   src="/images/logo-white.svg"
                   alt="logo"
-                  style={{ width: "320px" }}
+                  width="320"
+                  height="50"
                 />
               </a>
             </Link>

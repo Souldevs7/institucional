@@ -22,6 +22,8 @@ const MainBanner = () => {
                   <div className="animate-banner-image">
                     <Image
                       src="/images/animate-banner-img1.jpg"
+                      width="320"
+                      height="50"
                       alt="Animate image"
                     />
                   </div>

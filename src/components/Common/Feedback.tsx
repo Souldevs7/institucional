@@ -36,7 +36,12 @@ class Feedback extends Component {
         <div className="container">
           <div className="feedback-list">
             <div className="quotes-icon">
-              <Image src="/images/left-quote-white.png" alt="icon" />
+              <Image
+                src="/images/left-quote-white.png"
+                width="320"
+                height="50"
+                alt="icon"
+              />
             </div>
 
             {this.state.display ? (
@@ -97,41 +102,57 @@ class Feedback extends Component {
         <div className="client-image-box">
           <Image
             src="/images/clients/client1.png"
+            width="320"
+            height="50"
             className="client1"
             alt="client"
           />
           <Image
             src="/images/clients/client2.png"
+            width="320"
+            height="50"
             className="client2"
             alt="client"
           />
           <Image
             src="/images/clients/client3.png"
+            width="320"
+            height="50"
             className="client3"
             alt="client"
           />
           <Image
             src="/images/clients/client4.png"
+            width="320"
+            height="50"
             className="client4"
             alt="client"
           />
           <Image
             src="/images/clients/client5.png"
+            width="320"
+            height="50"
             className="client5"
             alt="client"
           />
           <Image
             src="/images/clients/client6.png"
+            width="320"
+            height="50"
             className="client6"
             alt="client"
           />
           <Image
             src="/images/clients/client7.png"
+            width="320"
+            height="50"
             className="client7"
             alt="client"
           />
           <Image
             src="/images/clients/client8.png"
+            width="320"
+            height="50"
             className="client8"
             alt="client"
           />

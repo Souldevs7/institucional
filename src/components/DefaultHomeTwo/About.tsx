@@ -19,6 +19,8 @@ class About extends Component {
                 <div className="about-image">
                   <Image
                     src="/images/about-img1.jpg"
+                    width="320"
+                    height="50"
                     alt="image"
                     className="rounded-10"
                   />

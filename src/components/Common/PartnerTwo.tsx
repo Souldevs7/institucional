@@ -20,7 +20,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner1.png" alt="image" />
+                      <Image
+                        src="/images/left-quote-white.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -32,7 +37,14 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner2.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner2.png"
+                        width="320"
+                        height="50"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -44,7 +56,14 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner3.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner3.png"
+                        width="320"
+                        height="50"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -56,7 +75,14 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner4.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner4.png"
+                        width="320"
+                        height="50"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -68,7 +94,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner5.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner5.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -80,7 +111,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner6.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner6.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -92,7 +128,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner7.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner7.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -104,7 +145,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner8.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner8.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -116,7 +162,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner9.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner9.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -128,7 +179,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner10.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner10.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -140,7 +196,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner11.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner11.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
@@ -152,7 +213,12 @@ class PartnerTwo extends Component {
                 <div className="d-table">
                   <div className="d-table-cell">
                     <a href="#" target="_blank">
-                      <Image src="/images/partners/partner12.png" alt="image" />
+                      <Image
+                        src="/images/partners/partner12.png"
+                        width="320"
+                        height="50"
+                        alt="image"
+                      />
                     </a>
                   </div>
                 </div>
