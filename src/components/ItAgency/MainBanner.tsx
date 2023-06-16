@@ -22,8 +22,8 @@ const MainBanner = () => {
                   <div className="animate-banner-image">
                     <Image
                       src="/images/animate-banner-img1.jpg"
-                      width="320"
-                      height="50"
+                      width="500"
+                      height="500"
                       alt="Animate image"
                     />
                   </div>
@@ -31,28 +31,34 @@ const MainBanner = () => {
                 <div className="col-lg-6">
                   <div className="main-banner-content">
                     <h1>Nós somos um Time digital</h1>
-
-                    <p>Construindo o futuro com tecnologia inovação.</p>
                     <p>
-                      E transformando desafios em oportunidades com a ajuda da
-                      tecnologia.
+                      Construindo o futuro com tecnologia, inovação
                     </p>
-
-                    <Link href="/contact" legacyBehavior>
-                      <a className="btn btn-primary">Vamos Começar</a>
-                    </Link>
-
-                    <Link href="/#play-video" legacyBehavior>
-                      <a
-                        onClick={(e) => {
-                          e.preventDefault();
-                          openModal();
-                        }}
-                        className="btn btn-secondary"
-                      >
-                        <i className="icofont-ui-play"></i> Como trabalhamos
-                      </a>
-                    </Link>
+                    <p>
+                      e transformando desafios em oportunidades com a ajuda da tecnologia.
+                    </p>
+                    <div
+                      style={{
+                        display: "flex",
+                        justifyContent: "space-between",
+                        maxWidth:"500px"
+                      }}
+                    >
+                        <Link href="/contact" legacyBehavior>
+                          <a className="btn btn-primary">Vamos Começar</a>
+                        </Link>
+                        <Link href="/#play-video" legacyBehavior>
+                          <a
+                            onClick={(e) => {
+                              e.preventDefault();
+                              openModal();
+                            }}
+                            className="btn btn-secondary"
+                          >
+                            Como trabalhamos
+                          </a>
+                        </Link>
+                    </div>
                   </div>
                 </div>
               </div>

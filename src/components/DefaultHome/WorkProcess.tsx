@@ -8,18 +8,19 @@ class WorkProcess extends Component {
         <section className="work-process-area ptb-100">
           <div className="container">
             <div className="section-title">
-              <h2>Our Work Process</h2>
+              <h2>Nosso Processo de Trabalho</h2>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                A criação de uma tecnologia passa por etapas como pesquisa,
+                 identificação de necessidades, definição de requisitos e 
+                 desenvolvimento de funcionalidades.
               </p>
             </div>
 
             <div className="work-process">
               <Image
                 src="/images/man-with-mobile.png"
-                width="320"
-                height="50"
+                width="490"
+                height="940"
                 alt="logo"
               />
 
@@ -75,8 +76,8 @@ class WorkProcess extends Component {
 
               <Image
                 src="/images/circle.png"
-                width="320"
-                height="50"
+                width="1000"
+                height="1000"
                 className="rotateme circle-image"
                 alt="image"
               />

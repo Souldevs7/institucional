@@ -48,7 +48,7 @@ class Navbar extends Component {
                   <Image
                     src="/images/logo-white.svg"
                     width="320"
-                    height="50"
+                    height="100"
                     alt="logo"
                   />
                 </a>

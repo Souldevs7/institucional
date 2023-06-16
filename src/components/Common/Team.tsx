@@ -21,16 +21,96 @@ class Team extends Component {
               interfaces, gerenciamento de projetos e análise de dados.
             </p>
           </div>
-
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/mayke.jpg"
-                  alt="Image"
+                  src="/images/team/felipe.jpg"
+                  alt="Imagem do Felipe"
                   className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
                 />
-
+                <div className="team-caption">
+                  <h3>Felipe</h3>
+                  <p>Gerente de Projeto</p>
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/feliperabreu/" target="_blank">
+                        <i className="icofont-linkedin"></i>
+                      </a>
+                    </li>                                    
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="team-card text-center">
+                <img
+                  src="/images/team/junior.jpg"
+                  alt="Imagem do Junior"
+                  className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
+                />
+                <div className="team-caption">
+                  <h3>Junior</h3>
+                  <p>Líder técnico</p>
+                  <ul>
+                    <li>
+                      <a href="https://www.linkedin.com/in/luiz-carlos-s-c-junior-a5582983/" target="_blank">
+                        <i className="icofont-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/LSCJunior"
+                        target="_blank"
+                        style={{ color: "inherit" }}
+                      >
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                    </li>                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="team-card text-center">
+                <img
+                  src="/images/team/luiz.png"
+                  alt="Imagem do Luiz"
+                  className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
+                />
+                <div className="team-caption">
+                  <h3>Luiz Brogliatto</h3>
+                  <p>Frontend Especialista</p>
+                  <ul>
+                    <li>
+                      <a href="linkedin.com/in/luiz0067" target="_blank">
+                        <i className="icofont-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/luiz0067yahoo"
+                        target="_blank"
+                        style={{ color: "inherit" }}
+                      >
+                        <FontAwesomeIcon icon={faGithub} />
+                      </a>
+                    </li>                   
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="team-card text-center">
+                <img
+                  src="/images/team/mayke.jpg"
+                  alt="Imagem do Mayke"
+                  className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
+                />
                 <div className="team-caption">
                   <h3>Mayke</h3>
                   <p>Desenvolvedor Full Stack e Artista Digital</p>
@@ -44,55 +124,23 @@ class Team extends Component {
                       <a
                         href="https://github.com/MaykTG/"
                         target="_blank"
-                        style={{color:"inherit"}}
+                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={faGithub} />
                       </a>
                     </li> 
                   </ul>
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="team-card text-center">
-                <img
-                  src="/images/team/circle-team3.jpg"
-                  alt="Image"
-                  className="rounded-circle"
-                />
-
-                <div className="team-caption">
-                  <h3>William Santos</h3>
-                  <p>Full-stack developer | React | Node.Js</p>
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/in/william-santos-5a5776bb/" target="_blank">
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/wilkhp29"
-                        target="_blank"
-                        style={{color:"inherit"}}
-                      >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
-                      </a>
-                    </li> 
-                  </ul>
-                </div>
-              </div>
-            </div>
-
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
                   src="/images/team/thiago.jpg"
-                  alt="Image"
+                  alt="Imagem do Thiago"
                   className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
                 />
-
                 <div className="team-caption">
                   <h3>Thiago Borges</h3>
                   <p>FullStack Developer JavaScript</p>
@@ -106,82 +154,25 @@ class Team extends Component {
                       <a
                         href="https://github.com/IDarkLoad"
                         target="_blank"
-                        style={{color:"inherit"}}
+                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={faGithub} />
                       </a>
                     </li> 
-                   
-                    
-                    
                   </ul>
                 </div>
               </div>
             </div>
-
-
-
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="team-card text-center">
-                <img
-                  src="/images/team/junior.jpg"
-                  alt="Image"
-                  className="rounded-circle"
-                />
-                  <div className="team-caption">
-                  <h3>Junior</h3>
-                  <p>Líder técnico</p>
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/in/luiz-carlos-s-c-junior-a5582983/" target="_blank">
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://github.com/LSCJunior"
-                        target="_blank"
-                        style={{color:"inherit"}}
-                      >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
-                      </a>
-                    </li>                   
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="team-card text-center">
-                <img
-                  src="/images/team/felipe.jpg"
-                  alt="Image"
-                  className="rounded-circle"
-                />
-                <div className="team-caption">
-                  <h3>Felipe </h3>
-                  <p>Gerente de Projeto</p>
-                  <ul>
-                    <li>
-                      <a href="https://www.linkedin.com/in/feliperabreu/" target="_blank">
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>                                    
-                  </ul>
-                </div>
-              </div>
-            </div>
-
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
                   src="/images/team/vinicius.jpg"
-                  alt="Image"
+                  alt="Imagem do Vinicius"
                   className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Vinicius </h3>
+                  <h3>Vinicius</h3>
                   <p>Fullstack developer Sr</p>
                   <ul>
                     <li>
@@ -193,48 +184,45 @@ class Team extends Component {
                       <a
                         href="https://github.com/TheVinizzz"
                         target="_blank"
-                        style={{color:"inherit"}}
+                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={faGithub} />
                       </a>
                     </li>                   
                   </ul>
                 </div>
               </div>
             </div>
-
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/luiz.png"
-                  alt="Image"
+                  src="/images/team/circle-team3.jpg"
+                  alt="Imagem do William"
                   className="rounded-circle"
+                  style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Luiz Brogliatto </h3>
-                  <p>Frontend Especialista</p>
+                  <h3>William Santos</h3>
+                  <p>Full-stack developer | React | Node.Js</p>
                   <ul>
                     <li>
-                      <a href="linkedin.com/in/luiz0067" target="_blank">
+                      <a href="https://www.linkedin.com/in/william-santos-5a5776bb/" target="_blank">
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
                       <a
-                        href="https://github.com/luiz0067yahoo"
+                        href="https://github.com/wilkhp29"
                         target="_blank"
-                        style={{color:"inherit"}}
+                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={["fab", "github"]} />
+                        <FontAwesomeIcon icon={faGithub} />
                       </a>
-                    </li>                   
+                    </li> 
                   </ul>
                 </div>
               </div>
             </div>
-
-
-
           </div>
         </div>
       </div>
@@ -243,3 +231,4 @@ class Team extends Component {
 }
 
 export default Team;
+
