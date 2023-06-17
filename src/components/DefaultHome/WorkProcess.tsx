@@ -18,7 +18,7 @@ class WorkProcess extends Component {
 
             <div className="work-process">
               <Image
-                src="/images/man-with-mobile.png"
+                src="/images/man-mobile.png"
                 width="490"
                 height="940"
                 alt="logo"
@@ -29,48 +29,48 @@ class WorkProcess extends Component {
                   <div className="icon">
                     <i className="pe-7s-display1"></i>
                   </div>
-                  <h3>Surface</h3>
-                  <span>Visual Design</span>
+                  <h3>Planejamento</h3>
+                  <span>Análise técnica</span>
                 </div>
 
                 <div className="single-work-process">
                   <div className="icon">
                     <i className="pe-7s-display2"></i>
                   </div>
-                  <h3>Skeleton</h3>
-                  <span>Wireframes</span>
+                  <h3>Desenvolvimento</h3>
+                  <span>Escalabilidade do sistema</span>
                 </div>
 
                 <div className="single-work-process">
                   <div className="icon">
                     <i className="pe-7s-airplay"></i>
                   </div>
-                  <h3>Structure</h3>
-                  <span>Screen Flow</span>
+                  <h3>Usabilidade</h3>
+                  <span>interação ao usuário</span>
                 </div>
 
                 <div className="single-work-process">
                   <div className="icon">
                     <i className="pe-7s-note2"></i>
                   </div>
-                  <h3>Scope</h3>
-                  <span>Requirements</span>
+                  <h3>Testes e qualidade</h3>
+                  <span>Testes de desempenho</span>
                 </div>
 
                 <div className="single-work-process">
                   <div className="icon">
                     <i className="pe-7s-light"></i>
                   </div>
-                  <h3>User Research</h3>
-                  <span>User Research</span>
+                  <h3>Manutenção</h3>
+                  <span>Atualizações de segurança</span>
                 </div>
 
                 <div className="single-work-process">
                   <div className="icon">
                     <i className="pe-7s-sun"></i>
                   </div>
-                  <h3>Implement</h3>
-                  <span>Lunch/Analyse</span>
+                  <h3>Arquitetura</h3>
+                  <span>Padrão/Tecnologias</span>
                 </div>
               </div>
 

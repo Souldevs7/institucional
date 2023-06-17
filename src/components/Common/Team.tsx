@@ -25,14 +25,14 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/felipe.jpg"
+                  src="/images/team/felipe.jpeg"
                   alt="Imagem do Felipe"
                   className="rounded-circle"
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Felipe</h3>
-                  <p>Gerente de Projeto</p>
+                  <h3>Felipe abreu</h3>
+                  <p>Product Owner</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/feliperabreu/" target="_blank">
@@ -52,8 +52,8 @@ class Team extends Component {
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Junior</h3>
-                  <p>Líder técnico</p>
+                  <h3>Luiz Junior</h3>
+                  <p>Tech Leader</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/luiz-carlos-s-c-junior-a5582983/" target="_blank">
@@ -83,7 +83,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Luiz Brogliatto</h3>
-                  <p>Frontend Especialista</p>
+                  <p>Desenvolvedor Frontend</p>
                   <ul>
                     <li>
                       <a href="linkedin.com/in/luiz0067" target="_blank">
@@ -112,7 +112,7 @@ class Team extends Component {
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Mayke</h3>
+                  <h3>Mayk Gonçalves</h3>
                   <p>Desenvolvedor Full Stack e Artista Digital</p>
                   <ul>
                     <li>
@@ -136,14 +136,14 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/thiago.jpg"
+                  src="/images/team/thiago.jpeg"
                   alt="Imagem do Thiago"
                   className="rounded-circle"
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Thiago Borges</h3>
-                  <p>FullStack Developer JavaScript</p>
+                  <h3>Thiago Pê</h3>
+                  <p>FullStack Developer</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/thiago-borges-b230b7141/" target="_blank">
@@ -172,8 +172,8 @@ class Team extends Component {
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Vinicius</h3>
-                  <p>Fullstack developer Sr</p>
+                  <h3>Carlos Borges</h3>
+                  <p>Fullstack developer</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/vinicius-p%C3%AA-borges-baab17191/" target="_blank">
@@ -196,14 +196,14 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/circle-team3.jpg"
+                  src="/images/team/Will.png"
                   alt="Imagem do William"
                   className="rounded-circle"
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
                   <h3>William Santos</h3>
-                  <p>Full-stack developer | React | Node.Js</p>
+                  <p>Full-stack developer</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/william-santos-5a5776bb/" target="_blank">
