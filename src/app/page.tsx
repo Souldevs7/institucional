@@ -28,13 +28,9 @@ export default function Home() {
 
       <About />
 
-      <OurWorks />
-
-      <WorkProcess />
-
       <Team />
 
-     
+      <OurWorks />
 
       <Partner />
 

@@ -1,11 +1,5 @@
 "use client";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from "react";
-import Link from "next/link";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { fab, faGithub } from "@fortawesome/free-brands-svg-icons";
-import Image from "next/image";
-library.add(fab);
 
 class Team extends Component {
   render() {
@@ -38,7 +32,7 @@ class Team extends Component {
                       <a href="https://www.linkedin.com/in/feliperabreu/" target="_blank">
                         <i className="icofont-linkedin"></i>
                       </a>
-                    </li>                                    
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -52,7 +46,7 @@ class Team extends Component {
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Luiz Junior</h3>
+                  <h3>Junior Luiz</h3>
                   <p>Tech Leader</p>
                   <ul>
                     <li>
@@ -64,11 +58,10 @@ class Team extends Component {
                       <a
                         href="https://github.com/LSCJunior"
                         target="_blank"
-                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={faGithub} />
+                        <i className="icofont-github"></i>
                       </a>
-                    </li>                   
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -94,11 +87,10 @@ class Team extends Component {
                       <a
                         href="https://github.com/luiz0067yahoo"
                         target="_blank"
-                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={faGithub} />
+                        <i className="icofont-github"></i>
                       </a>
-                    </li>                   
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -113,10 +105,10 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Mayk Gonçalves</h3>
-                  <p>Desenvolvedor Full Stack e Artista Digital</p>
+                  <p>Desenvolvedor FullStack e Artista Digital</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/mayktg/"  target="_blank">
+                      <a href="https://www.linkedin.com/in/mayktg/" target="_blank">
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
@@ -124,11 +116,10 @@ class Team extends Component {
                       <a
                         href="https://github.com/MaykTG/"
                         target="_blank"
-                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={faGithub} />
+                        <i className="icofont-github"></i>
                       </a>
-                    </li> 
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -154,11 +145,10 @@ class Team extends Component {
                       <a
                         href="https://github.com/IDarkLoad"
                         target="_blank"
-                        style={{ color: "inherit" }}
                       >
-                        <FontAwesomeIcon icon={faGithub} />
+                        <i className="icofont-github"></i>
                       </a>
-                    </li> 
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -172,7 +162,7 @@ class Team extends Component {
                   style={{ width: "200px", height: "200px" }}
                 />
                 <div className="team-caption">
-                  <h3>Carlos Borges</h3>
+                  <h3>Vinicius Borges</h3>
                   <p>Fullstack developer</p>
                   <ul>
                     <li>
@@ -183,12 +173,10 @@ class Team extends Component {
                     <li>
                       <a
                         href="https://github.com/TheVinizzz"
-                        target="_blank"
-                        style={{ color: "inherit" }}
-                      >
-                        <FontAwesomeIcon icon={faGithub} />
+                        target="_blank">
+                        <i className="icofont-github"></i>
                       </a>
-                    </li>                   
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -203,7 +191,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>William Santos</h3>
-                  <p>Full-stack developer</p>
+                  <p>FullStack developer</p>
                   <ul>
                     <li>
                       <a href="https://www.linkedin.com/in/william-santos-5a5776bb/" target="_blank">
@@ -213,12 +201,10 @@ class Team extends Component {
                     <li>
                       <a
                         href="https://github.com/wilkhp29"
-                        target="_blank"
-                        style={{ color: "inherit" }}
-                      >
-                        <FontAwesomeIcon icon={faGithub} />
+                        target="_blank">
+                        <i className="icofont-github"></i>
                       </a>
-                    </li> 
+                    </li>
                   </ul>
                 </div>
               </div>

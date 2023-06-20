@@ -25,30 +25,12 @@ class Footer extends Component {
                       </a>
                     </Link>
                   </div>
-
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  Nossa empresa de tecnologia impulsiona a inovação, 
+                  transformando o mundo digital com soluções inteligentes, 
+                  capacitando indivíduos e organizações para uma sociedade
+                  mais conectada.
                   </p>
-
-                  <ul className="social-links">
-                    <li>
-                      <a href="https://www.facebook.com/" target="_blank">
-                        <i className="icofont-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="linkedin.com" target="_blank">
-                        <i className="icofont-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.instagram.com/" target="_blank">
-                        <i className="icofont-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
                 </div>
               </div>
 
@@ -61,15 +43,12 @@ class Footer extends Component {
 
                   <ul className="get-in-touch">
                     <li>
-                      <i className="icofont-home"></i> 2750 Quadra Street
-                      Victoria, Canada.
+                      <a href="estado">Rio de Janeiro, Brasil.</a>
                     </li>
                     <li>
-                      <i className="icofont-live-support"></i>
-                      <a href="tel:+324-9442-515">+55 31 98897-7180</a>
+                      <a href="tel:+55 31 98897-7180">+55 31 98897-7180</a>
                     </li>
                     <li>
-                      <i className="icofont-envelope"></i>
                       <a href="mailto:contato@souldevs.online">contato@souldevs.online</a>
                     </li>
                   </ul>

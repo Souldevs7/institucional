@@ -1,7 +1,7 @@
 "use client";
 import React, { Component } from "react";
 import Link from "next/link";
-import Image from "next/image";
+
 class OurWorks extends Component {
   render() {
     return (
@@ -16,7 +16,26 @@ class OurWorks extends Component {
                 com qualidade, inovação e dedicação
               </p>
             </div>
-
+            <div className="image-grid">
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 1" style={{ width: "300px", height: "300px" }} />
+              </div>
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 2" style={{ width: "300px", height: "300px" }}/>
+              </div>
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 3" style={{ width: "300px", height: "300px" }}/>
+              </div>
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 4" style={{ width: "300px", height: "300px" }}/>
+              </div>
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 5" style={{ width: "300px", height: "300px" }}/>
+              </div>
+              <div className="image-item">
+                <img src="/images/team/junior.jpg" alt="Imagem 6" style={{ width: "300px", height: "300px" }}/>
+              </div>
+            </div>
             <div className="view-more-work">
               <Link href="/portfolio" legacyBehavior>
                 <a className="btn btn-primary">Detalhes</a>
@@ -30,3 +49,4 @@ class OurWorks extends Component {
 }
 
 export default OurWorks;
+

@@ -77,14 +77,6 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link href="#">
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      Nosso time
-                    </a>
-                  </Link>
-                </li>
-
-                <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
                       Parceiros
                     </a>
                   </Link>
@@ -93,7 +85,7 @@ const Navbar = () => {
                 <li className="nav-item">
                   <Link href="#">
                     <a className="nav-link" onClick={(e) => e.preventDefault()}>
-                      Contatos
+                      Contato
                     </a>
                   </Link>
                 </li>

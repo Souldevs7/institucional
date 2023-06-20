@@ -28,36 +28,24 @@ const MainBanner = () => {
                     />
                   </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-lg-5">
                   <div className="main-banner-content">
                     <h1>Nós somos um Time digital</h1>
                     <p>
-                      Construindo o futuro com tecnologia, inovação
+                      Construindo o futuro com tecnologia, inovação e 
+                      transformando desafios em oportunidades com a ajuda da tecnologia.
                     </p>
-                    <p>
-                      e transformando desafios em oportunidades com a ajuda da tecnologia.
-                    </p>
+
                     <div
                       style={{
                         display: "flex",
                         justifyContent: "space-between",
-                        maxWidth:"500px"
+                        maxWidth: "500px"
                       }}
                     >
-                        <Link href="/contact" legacyBehavior>
-                          <a className="btn btn-primary">Vamos Começar</a>
-                        </Link>
-                        <Link href="/#play-video" legacyBehavior>
-                          <a
-                            onClick={(e) => {
-                              e.preventDefault();
-                              openModal();
-                            }}
-                            className="btn btn-secondary"
-                          >
-                            Como trabalhamos
-                          </a>
-                        </Link>
+                      <Link href="/contact" legacyBehavior>
+                        <a className="btn btn-primary">Vamos Começar</a>
+                      </Link>
                     </div>
                   </div>
                 </div>

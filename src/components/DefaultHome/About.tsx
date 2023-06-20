@@ -20,7 +20,7 @@ class About extends Component {
           <div className="container">
             <div className="text-center">
               <h1>Sobre Nós</h1>
-              <p style={{ maxWidth: "650px", textAlign: "center", margin: "0 auto", color: "#474a51" }}>
+              <p style={{ maxWidth: "800px", textAlign: "center", margin: "0 auto 2rem", color: "#474a51" }}>
                 Somos uma equipe apaixonada por oferecer soluções de alta qualidade e
                 inovadoras para atender às necessidades dos nossos clientes. Com anos de
                 experiência no setor, estabelecemos um histórico sólido de sucesso,
@@ -29,8 +29,8 @@ class About extends Component {
             </div>
 
             <div className="row align-items-center">
-              <div className="col-lg-7 col-md-12">
-                <div className="about-content about-content-two">
+              <div className="col-lg-6 col-md-12">
+                <div className="about-content about-content-two" style={{textAlign: "right"}}>
                   <div className="section-title">
                   </div>
 
@@ -64,55 +64,24 @@ class About extends Component {
                     <h4>Valores</h4>
 
                     <p>
-                      Inovação: Buscamos constantemente encontrar novas formas de usar
-                      a tecnologia para resolver problemas complexos e atender às
-                      necessidades da sociedade, incentivando a criatividade
-                      e o pensamento inovador.
-                    </p>
-                    <p>
-                      Compromisso com a excelência: Valorizamos
-                      a qualidade e nos esforçamos para entregar
-                      soluções tecnológicas de alto nível, eficientes
-                      e confiáveis em tudo o que fazemos.
-                    </p>
-                    <p>
-                      Impacto positivo: Utilizamos a tecnologia como
-                      uma força transformadora para o bem, criando soluções
-                      que têm um impacto positivo nas vidas das pessoas e na
-                      sociedade, buscando deixar um legado positivo para
-                      as gerações futuras.
-                    </p>
-                    <p>
-                      Colaboração e diversidade: Reconhecemos o valor da c
-                      olaboração e da diversidade de ideias, acreditando
-                      que a combinação de perspectivas e experiências diversas
-                      impulsiona a inovação e enriquece nosso trabalho. Promovemos um ambiente
-                      inclusivo, onde todos são valorizados e respeitados.
+                      Somos uma empresa inovadora, comprometida
+                      com a excelência e a busca por soluções
+                      tecnológicas de alto impacto. Valorizamos a
+                      colaboração, diversidade e a criação de um
+                      legado positivo para as gerações futuras.
                     </p>
                   </div>
                 </div>
               </div>
-              <div className="col-lg-5 col-md-12">
+              <div className="col-lg-6 col-md-12">
                 <div className="about-image">
-                  <Image
-                    src="/images/about-img1.jpg"
-                    width="520"
-                    height="700"
+                <Image
+                    src="/images/group.jpg"
+                    width="600"
+                    height="600"
                     alt="image"
                     className="rounded-10"
                   />
-
-                  <div className="video-box">
-                    <div
-                      onClick={(e) => {
-                        e.preventDefault();
-                        this.openModal();
-                      }}
-                      className="video-btn"
-                    >
-                      <i className="pe-7s-play"></i>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
