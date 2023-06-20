@@ -69,7 +69,7 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <img
-                  src="/images/team/luiz.png"
+                  src="/images/team/luiz.jpeg"
                   alt="Imagem do Luiz"
                   className="rounded-circle"
                   style={{ width: "200px", height: "200px" }}

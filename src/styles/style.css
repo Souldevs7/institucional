@@ -69,7 +69,7 @@ h3, h4, h5, h6 {
 p {
   line-height: 1.8;
   font-size: 16px;
-  color: #646464;
+  color: #202020;
   margin-bottom: 15px;
 }
 
@@ -6027,8 +6027,9 @@ FAQ CSS
 Footer CSS
 =================================================*/
 .footer-area {
-  background-color: #f6f9fc;
+  background-color: #000;
   padding-top: 50px;
+  padding-bottom: 50px;
   position: relative;
   z-index: 1;
 }

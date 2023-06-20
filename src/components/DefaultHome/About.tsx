@@ -77,6 +77,7 @@ class About extends Component {
                 <div className="about-image">
                 <Image
                     src="/images/group.jpg"
+                    unoptimized
                     width="600"
                     height="600"
                     alt="image"

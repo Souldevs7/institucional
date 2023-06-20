@@ -17,7 +17,7 @@ class Footer extends Component {
                     <Link href="/" legacyBehavior>
                       <a>
                         <Image
-                          src="https://souldevs.online/admin/media/logo/souldevs-logo_color.svg"
+                          src="https://souldevs.online/admin/media/logo/souldevs-logo_white.svg"
                           width="320"
                           height="100"
                           alt="image"
@@ -25,7 +25,7 @@ class Footer extends Component {
                       </a>
                     </Link>
                   </div>
-                  <p>
+                  <p style={{color:"#eceeef"}}>
                   Nossa empresa de tecnologia impulsiona a inovação, 
                   transformando o mundo digital com soluções inteligentes, 
                   capacitando indivíduos e organizações para uma sociedade
@@ -39,26 +39,25 @@ class Footer extends Component {
 
               <div className="col-lg-3 col-sm-6">
                 <div className="single-footer-widget">
-                  <h3>Entrar em contato</h3>
+                  <h3 style={{color:"#eceeef"}}>
+                    Entrar em contato</h3>
 
                   <ul className="get-in-touch">
                     <li>
-                      <a href="estado">Rio de Janeiro, Brasil.</a>
+                      <a href="estado" style={{color:"#eceeef"}}>
+                        Rio de Janeiro, Brasil.</a>
                     </li>
                     <li>
-                      <a href="tel:+55 31 98897-7180">+55 31 98897-7180</a>
+                      <a href="tel:+55 31 98897-7180" style={{color:"#eceeef"}}>
+                        +55 31 98897-7180</a>
                     </li>
                     <li>
-                      <a href="mailto:contato@souldevs.online">contato@souldevs.online</a>
+                      <a href="mailto:contato@souldevs.online" style={{color:"#eceeef"}}>
+                        contato@souldevs.online</a>
                     </li>
                   </ul>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="copyright-area">
-            <div className="container">
             </div>
           </div>
         </footer>
