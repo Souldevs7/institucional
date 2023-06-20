@@ -1,6 +1,6 @@
 "use client";
 import React, { Component } from "react";
-
+import Image from "next/image";
 class Team extends Component {
   render() {
     return (
@@ -18,18 +18,22 @@ class Team extends Component {
           <div className="row justify-content-center">
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/felipe.jpeg"
                   alt="Imagem do Felipe"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Felipe abreu</h3>
                   <p>Product Owner</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/feliperabreu/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/feliperabreu/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
@@ -39,26 +43,27 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem do Junior"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Junior Luiz</h3>
                   <p>Tech Leader</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/luiz-carlos-s-c-junior-a5582983/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/luiz-carlos-s-c-junior-a5582983/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://github.com/LSCJunior"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/LSCJunior" target="_blank">
                         <i className="icofont-github"></i>
                       </a>
                     </li>
@@ -68,11 +73,12 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/luiz.jpeg"
                   alt="Imagem do Luiz"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Luiz Brogliatto</h3>
@@ -97,26 +103,27 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/mayke.jpg"
                   alt="Imagem do Mayke"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Mayk Gonçalves</h3>
                   <p>Desenvolvedor FullStack e Artista Digital</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/mayktg/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/mayktg/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://github.com/MaykTG/"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/MaykTG/" target="_blank">
                         <i className="icofont-github"></i>
                       </a>
                     </li>
@@ -126,26 +133,27 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/thiago.jpeg"
                   alt="Imagem do Thiago"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Thiago Pê</h3>
                   <p>FullStack Developer</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/thiago-borges-b230b7141/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/thiago-borges-b230b7141/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://github.com/IDarkLoad"
-                        target="_blank"
-                      >
+                      <a href="https://github.com/IDarkLoad" target="_blank">
                         <i className="icofont-github"></i>
                       </a>
                     </li>
@@ -155,25 +163,27 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/vinicius.jpg"
                   alt="Imagem do Vinicius"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>Vinicius Borges</h3>
                   <p>Fullstack developer</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/vinicius-p%C3%AA-borges-baab17191/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/vinicius-p%C3%AA-borges-baab17191/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://github.com/TheVinizzz"
-                        target="_blank">
+                      <a href="https://github.com/TheVinizzz" target="_blank">
                         <i className="icofont-github"></i>
                       </a>
                     </li>
@@ -183,25 +193,27 @@ class Team extends Component {
             </div>
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
-                <img
+                <Image
                   src="/images/team/Will.png"
                   alt="Imagem do William"
                   className="rounded-circle"
-                  style={{ width: "200px", height: "200px" }}
+                  width="200"
+                  height="200"
                 />
                 <div className="team-caption">
                   <h3>William Santos</h3>
                   <p>FullStack developer</p>
                   <ul>
                     <li>
-                      <a href="https://www.linkedin.com/in/william-santos-5a5776bb/" target="_blank">
+                      <a
+                        href="https://www.linkedin.com/in/william-santos-5a5776bb/"
+                        target="_blank"
+                      >
                         <i className="icofont-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a
-                        href="https://github.com/wilkhp29"
-                        target="_blank">
+                      <a href="https://github.com/wilkhp29" target="_blank">
                         <i className="icofont-github"></i>
                       </a>
                     </li>
@@ -217,4 +229,3 @@ class Team extends Component {
 }
 
 export default Team;
-

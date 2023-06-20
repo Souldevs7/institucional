@@ -41,8 +41,6 @@ class PartnerTwo extends Component {
                         src="/images/partners/partner2.png"
                         width="320"
                         height="50"
-                        width="320"
-                        height="50"
                         alt="image"
                       />
                     </a>
@@ -60,8 +58,6 @@ class PartnerTwo extends Component {
                         src="/images/partners/partner3.png"
                         width="320"
                         height="50"
-                        width="320"
-                        height="50"
                         alt="image"
                       />
                     </a>
@@ -77,8 +73,6 @@ class PartnerTwo extends Component {
                     <a href="#" target="_blank">
                       <Image
                         src="/images/partners/partner4.png"
-                        width="320"
-                        height="50"
                         width="320"
                         height="50"
                         alt="image"
