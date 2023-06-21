@@ -21,7 +21,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/felipe.jpeg"
                   alt="Imagem do Felipe"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -46,7 +46,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem do Junior"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -76,7 +76,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/luiz.jpeg"
                   alt="Imagem do Luiz"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -106,7 +106,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/mayke.jpg"
                   alt="Imagem do Mayke"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -136,7 +136,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/thiago.jpeg"
                   alt="Imagem do Thiago"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -166,7 +166,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/vinicius.jpg"
                   alt="Imagem do Vinicius"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />
@@ -196,7 +196,7 @@ class Team extends Component {
                 <Image
                   src="/images/team/Will.png"
                   alt="Imagem do William"
-                  className="rounded-circle"
+                  className="rounded-circle img-fluid"
                   width="200"
                   height="200"
                 />

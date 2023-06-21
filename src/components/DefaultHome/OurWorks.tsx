@@ -22,48 +22,48 @@ class OurWorks extends Component {
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 1"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
               <div className="image-item">
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 2"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
               <div className="image-item">
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 3"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
               <div className="image-item">
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 4"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
               <div className="image-item">
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 5"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
               <div className="image-item">
                 <Image
                   src="/images/team/junior.jpg"
                   alt="Imagem 6"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                 />
               </div>
             </div>

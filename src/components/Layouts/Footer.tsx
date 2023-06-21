@@ -27,9 +27,7 @@ class Footer extends Component {
                   </div>
                   <p style={{color:"#eceeef"}}>
                   Nossa empresa de tecnologia impulsiona a inovação, 
-                  transformando o mundo digital com soluções inteligentes, 
-                  capacitando indivíduos e organizações para uma sociedade
-                  mais conectada.
+                  transformando o mundo digital com soluções inteligentes.
                   </p>
                 </div>
               </div>

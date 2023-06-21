@@ -6109,16 +6109,6 @@ Footer CSS
   font-weight: 600;
 }
 
-.single-footer-widget h3::after {
-  content: '';
-  position: absolute;
-  left: 35px;
-  bottom: 0;
-  height: 3px;
-  background: #f6f9fc;
-  width: 5px;
-}
-
 .single-footer-widget ul.list {
   margin: 0;
   list-style-type: none;
