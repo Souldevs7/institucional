@@ -194,7 +194,7 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <Image
-                  src="/images/team/Will.png"
+                  src="/images/team/will.jpeg"
                   alt="Imagem do William"
                   className="rounded-circle img-fluid"
                   width="200"
