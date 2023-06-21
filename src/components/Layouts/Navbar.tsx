@@ -21,6 +21,7 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
+          
           <div className="container-fluid">
               <Link href="/">
                 <a className="navbar-brand">
