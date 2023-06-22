@@ -8,7 +8,7 @@ class Footer extends Component {
     
     return (
       <>
-        <footer className="footer-area">
+        <footer className="footer-area" id="contact">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-3 col-sm-6">

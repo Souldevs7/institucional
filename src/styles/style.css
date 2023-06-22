@@ -1069,8 +1069,6 @@ Main Banner CSS
 
 .animate-banner-image img {
   display: block !important;
-  -webkit-animation: border-transform 10s linear infinite alternate forwards;
-  animation: border-transform 10s linear infinite alternate forwards;
   margin: auto;
 }
 

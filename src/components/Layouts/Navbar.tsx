@@ -23,16 +23,6 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-light">
           
           <div className="container-fluid">
-              <Link href="/">
-                <a className="navbar-brand">
-                  <Image
-                    src="https://souldevs.online/admin/media/logo/souldevs-logo_color.svg"
-                    alt="logo"
-                    width="300"
-                    height="70"
-                  />
-                </a>
-              </Link>
 
             <button
               onClick={toggleNavbar}
@@ -52,40 +42,40 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                  <Link href="#services">
+                    <a className="nav-link">
                       Serviços
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                  <Link href="#quemsomos">
+                    <a className="nav-link">
                       Quem somos
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                  <Link href="#portifolio">
+                    <a className="nav-link">
                       Portfólio
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                  <Link href="#parceiros">
+                    <a className="nav-link">
                       Parceiros
                     </a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="nav-link" onClick={(e) => e.preventDefault()}>
+                  <Link href="#contact">
+                    <a className="nav-link">
                       Contato
                     </a>
                   </Link>

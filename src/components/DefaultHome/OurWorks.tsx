@@ -7,7 +7,7 @@ class OurWorks extends Component {
   render() {
     return (
       <>
-        <section className="case-studies-area ptb-100 bg-fcfbfb">
+        <section className="case-studies-area ptb-100 bg-fcfbfb" id="portifolio">
           <div className="container">
             <div className="section-title">
               <h2>Nosso Trabalho</h2>
@@ -20,57 +20,33 @@ class OurWorks extends Component {
             <div className="image-grid">
               <div className="image-item">
                 <Image
-                  src="/images/team/junior.jpg"
+                  src="/images/Soul-Port.png"
+                  className="img-fluid"
                   alt="Imagem 1"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
+                  unoptimized
                 />
               </div>
               <div className="image-item">
                 <Image
-                  src="/images/team/junior.jpg"
+                  src="/images/Soul-Buss.png"
+                  className="img-fluid"
                   alt="Imagem 2"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
+                  unoptimized
                 />
               </div>
               <div className="image-item">
                 <Image
-                  src="/images/team/junior.jpg"
+                  src="/images/Soul-App.png"
                   alt="Imagem 3"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
+                  unoptimized
                 />
               </div>
-              <div className="image-item">
-                <Image
-                  src="/images/team/junior.jpg"
-                  alt="Imagem 4"
-                  width="200"
-                  height="200"
-                />
-              </div>
-              <div className="image-item">
-                <Image
-                  src="/images/team/junior.jpg"
-                  alt="Imagem 5"
-                  width="200"
-                  height="200"
-                />
-              </div>
-              <div className="image-item">
-                <Image
-                  src="/images/team/junior.jpg"
-                  alt="Imagem 6"
-                  width="200"
-                  height="200"
-                />
-              </div>
-            </div>
-            <div className="view-more-work">
-              <Link href="/portfolio" legacyBehavior>
-                <a className="btn btn-primary">Detalhes</a>
-              </Link>
             </div>
           </div>
         </section>

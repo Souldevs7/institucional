@@ -4,7 +4,7 @@ import Image from "next/image";
 class Team extends Component {
   render() {
     return (
-      <div className="pt-100 pb-70">
+      <div className="pt-100 pb-70" id="quemsomos">
         <div className="container">
           <div className="section-title">
             <h2>Nosso Time</h2>
