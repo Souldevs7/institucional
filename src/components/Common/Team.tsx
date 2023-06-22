@@ -22,8 +22,8 @@ class Team extends Component {
                   src="/images/team/felipe.jpeg"
                   alt="Imagem do Felipe"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>Felipe abreu</h3>
@@ -47,8 +47,8 @@ class Team extends Component {
                   src="/images/team/junior.jpg"
                   alt="Imagem do Junior"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>Junior Luiz</h3>
@@ -77,8 +77,8 @@ class Team extends Component {
                   src="/images/team/luiz.jpeg"
                   alt="Imagem do Luiz"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>Luiz Brogliatto</h3>
@@ -107,8 +107,8 @@ class Team extends Component {
                   src="/images/team/mayke.jpg"
                   alt="Imagem do Mayke"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>Mayk Gonçalves</h3>
@@ -137,8 +137,8 @@ class Team extends Component {
                   src="/images/team/thiago.jpeg"
                   alt="Imagem do Thiago"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>Thiago Pê</h3>
@@ -164,11 +164,12 @@ class Team extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="team-card text-center">
                 <Image
-                  src="/images/team/vinicius.jpg"
+                  src="/images/team/vinicius.jpeg"
                   alt="Imagem do Vinicius"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
+                  unoptimized
                 />
                 <div className="team-caption">
                   <h3>Vinicius Borges</h3>
@@ -197,8 +198,8 @@ class Team extends Component {
                   src="/images/team/will.jpeg"
                   alt="Imagem do William"
                   className="rounded-circle img-fluid"
-                  width="200"
-                  height="200"
+                  width="300"
+                  height="300"
                 />
                 <div className="team-caption">
                   <h3>William Santos</h3>
