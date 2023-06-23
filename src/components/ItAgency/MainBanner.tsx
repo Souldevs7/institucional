@@ -34,21 +34,26 @@ const MainBanner = () => {
                   <div className="main-banner-content">
                     <h1>Nós somos um Time digital</h1>
                     <p>
-                      Construindo o futuro com tecnologia, inovação e 
-                      transformando desafios em oportunidades com a ajuda da tecnologia.
+                      Construindo o futuro com tecnologia, inovação e
+                      transformando desafios em oportunidades com a ajuda da
+                      tecnologia.
                     </p>
 
                     <div
                       style={{
                         display: "flex",
                         justifyContent: "space-between",
-                        maxWidth: "500px"
+                        maxWidth: "500px",
                       }}
                     >
-                        <a className="btn btn-primary">
+                      <a
+                        className="btn btn-primary"
+                        href="https://wa.me/5531988977180?text=Ol%C3%A1%2C+tudo+bem%3F+Preciso+falar+sobre+um+desenvolvimento+de+TI"
+                        target="_blank"
+                      >
                         <i className="icofont-brand-whatsapp"></i>
-                          Contate agora
-                          </a>
+                        Contate agora
+                      </a>
                     </div>
                   </div>
                 </div>
