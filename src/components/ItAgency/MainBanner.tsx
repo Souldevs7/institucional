@@ -21,11 +21,12 @@ const MainBanner = () => {
                 <div className="col-lg-6">
                   <div className="animate-banner-image">
                     <Image
-                      src="/images/souldevs-logo_color.png"
+                      src="/images/souldevs-logo_color-alt.png"
                       className="img-fluid"
                       width="500"
                       height="500"
                       alt="Animate image"
+                      unoptimized
                     />
                   </div>
                 </div>
@@ -44,9 +45,10 @@ const MainBanner = () => {
                         maxWidth: "500px"
                       }}
                     >
-                      <Link href="/contact" legacyBehavior>
-                        <a className="btn btn-primary">Contate agora</a>
-                      </Link>
+                        <a className="btn btn-primary">
+                        <i className="icofont-brand-whatsapp"></i>
+                          Contate agora
+                          </a>
                     </div>
                   </div>
                 </div>

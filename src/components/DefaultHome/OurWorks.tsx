@@ -47,6 +47,35 @@ class OurWorks extends Component {
                   unoptimized
                 />
               </div>
+              <div className="image-item">
+                <Image
+                  src="/images/Soul-Port.png"
+                  className="img-fluid"
+                  alt="Imagem 1"
+                  width="300"
+                  height="300"
+                  unoptimized
+                />
+              </div>
+              <div className="image-item">
+                <Image
+                  src="/images/Host.png"
+                  className="img-fluid"
+                  alt="Imagem 2"
+                  width="300"
+                  height="300"
+                  unoptimized
+                />
+              </div>
+              <div className="image-item">
+                <Image
+                  src="/images/Soul-Mock.png"
+                  alt="Imagem 3"
+                  width="300"
+                  height="300"
+                  unoptimized
+                />
+              </div>
             </div>
           </div>
         </section>

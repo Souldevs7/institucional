@@ -3198,6 +3198,7 @@ Team CSS
 
 .team-card img {
   width: 100%;
+  max-width: 200px;
 }
 
 .team-card .team-caption {
@@ -6157,7 +6158,7 @@ Footer CSS
 .single-footer-widget ul.get-in-touch {
   padding: 0;
   margin: 0;
-  height: 120px;
+  height: 20px;
   display: flex;
   flex: auto;
   flex-direction: column;

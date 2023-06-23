@@ -23,9 +23,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-display2 bg-6610f2 mx-auto"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Criação de sites</a>
-                    </Link>
                   </h3>
                   <p>
                     Criamos sites cativantes que refletem sua identidade, envolvem seu público e impulsionam seu negócio.
@@ -39,9 +37,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-phone bg-fc3549"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Desenvolvimento de aplicativos</a>
-                    </Link>
                   </h3>
                   <p>
                     Desenvolvemos aplicativos sob medida para potencializar sua presença digital e levar sua experiência ao próximo nível.
@@ -53,9 +49,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-comment bg-13c4a1"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Consultoria</a>
-                    </Link>
                   </h3>
                   <p>
                     Conte com nossa consultoria especializada para impulsionar seu negócio, oferecendo insights estratégicos e soluções personalizadas.
@@ -69,9 +63,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-light bg-ffb700"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Business Inteligence</a>
-                    </Link>
                   </h3>
                   <p>
                     Desbloqueie o potencial dos seus dados com Business Intelligence, fornecendo insights acionáveis para impulsionar sua tomada de decisão estratégica.
@@ -84,9 +76,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-cart bg-00d280"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Desenvolvimento de Sistemas</a>
-                    </Link>
                   </h3>
                   <p>
                     Desenvolvemos sistemas customizados que atendem às suas necessidades específicas, proporcionando eficiência, automatização e otimização de processos
@@ -98,9 +88,7 @@ class Services extends Component {
                 <div className="service-card-one">
                   <i className="pe-7s-refresh-cloud bg-ff612f"></i>
                   <h3>
-                    <Link href="/service-details" legacyBehavior>
                       <a>Hospedagem e Suporte de Sites</a>
-                    </Link>
                   </h3>
                   <p>
                   Oferecemos serviços completos de hospedagem e suporte de sites, garantindo uma presença online confiável e segura para o seu negócio.

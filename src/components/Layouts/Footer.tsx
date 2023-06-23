@@ -42,10 +42,6 @@ class Footer extends Component {
 
                   <ul className="get-in-touch">
                     <li>
-                      <a href="estado" style={{color:"#eceeef"}}>
-                        Rio de Janeiro, Brasil.</a>
-                    </li>
-                    <li>
                       <a href="tel:+55 31 98897-7180" style={{color:"#eceeef"}}>
                         +55 31 98897-7180</a>
                     </li>

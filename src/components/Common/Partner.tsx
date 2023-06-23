@@ -15,8 +15,8 @@ class Partner extends Component {
                   src="/images/ignite.png"
                   className="img-fluid"
                   alt="Imagem 1"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                   unoptimized
                 />
               </div>
@@ -25,8 +25,8 @@ class Partner extends Component {
                   src="/images/lithium.png"
                   className="img-fluid"
                   alt="Imagem 1"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                   unoptimized
                 />
               </div>
@@ -35,8 +35,8 @@ class Partner extends Component {
                   src="/images/BYJR.png"
                   className="img-fluid"
                   alt="Imagem 1"
-                  width="300"
-                  height="300"
+                  width="200"
+                  height="200"
                   unoptimized
                 />
               </div>

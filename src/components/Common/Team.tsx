@@ -26,8 +26,8 @@ class Team extends Component {
                   height="300"
                 />
                 <div className="team-caption">
-                  <h3>Felipe abreu</h3>
-                  <p>Product Owner</p>
+                  <h3>Felipe Abreu</h3>
+                  <p>Product Owner e Scrum Master</p>
                   <ul>
                     <li>
                       <a
@@ -52,7 +52,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Junior Luiz</h3>
-                  <p>Tech Leader</p>
+                  <p>Desenvolvedor Full Stack</p>
                   <ul>
                     <li>
                       <a
@@ -82,7 +82,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Luiz Brogliatto</h3>
-                  <p>Desenvolvedor Frontend</p>
+                  <p>Desenvolvedor Full Stack</p>
                   <ul>
                     <li>
                       <a href="linkedin.com/in/luiz0067" target="_blank">
@@ -112,7 +112,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Mayk Gonçalves</h3>
-                  <p>Desenvolvedor FullStack e Artista Digital</p>
+                  <p>Desenvolvedor Full Stack e UX Designer</p>
                   <ul>
                     <li>
                       <a
@@ -142,7 +142,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Thiago Pê</h3>
-                  <p>FullStack Developer</p>
+                  <p>Desenvolvedor Full Stack</p>
                   <ul>
                     <li>
                       <a
@@ -173,7 +173,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>Vinicius Borges</h3>
-                  <p>Fullstack developer</p>
+                  <p>Desenvolvedor Full Stack</p>
                   <ul>
                     <li>
                       <a
@@ -203,7 +203,7 @@ class Team extends Component {
                 />
                 <div className="team-caption">
                   <h3>William Santos</h3>
-                  <p>FullStack developer</p>
+                  <p>Desenvolvedor Full Stack</p>
                   <ul>
                     <li>
                       <a
