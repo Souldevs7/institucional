@@ -1,10 +1,12 @@
 // @ts-nocheck
-"use client";
-import React from "react";
+
+import React, { useEffect } from "react";
 import Link from "../../utils/ActiveLink";
 import Image from "next/image";
-const Navbar = () => {
+import { getDictionary } from "../../get-dictionary";
+const Navbar = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const [collapsed, setCollapsed] = React.useState(true);
+  const dictionary = await getDictionary(lang);
 
   const toggleNavbar = () => {
     setCollapsed((old) => !old);
@@ -21,9 +23,7 @@ const Navbar = () => {
     <>
       <div id="navbar" className="navbar-area navbar-style-2">
         <nav className="navbar navbar-expand-md navbar-light">
-          
           <div className="container-fluid">
-
             <button
               onClick={toggleNavbar}
               className={classTwo}
@@ -43,44 +43,33 @@ const Navbar = () => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link href="#services">
-                    <a className="nav-link">
-                      Serviços
-                    </a>
+                    <a className="nav-link">{dictionary?.services}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#quemsomos">
-                    <a className="nav-link">
-                      Quem somos
-                    </a>
+                    <a className="nav-link">{dictionary?.who_we_are}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#portifolio">
-                    <a className="nav-link">
-                      Portfólio
-                    </a>
+                    <a className="nav-link">{dictionary?.portfolio}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#parceiros">
-                    <a className="nav-link">
-                      Parceiros
-                    </a>
+                    <a className="nav-link">{dictionary?.partners}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#contact">
-                    <a className="nav-link">
-                      Contato
-                    </a>
+                    <a className="nav-link">{dictionary?.contact}</a>
                   </Link>
                 </li>
-
               </ul>
             </div>
           </div>
