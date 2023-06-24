@@ -20,19 +20,19 @@ export default function Home({ params }: { params: { lang: Locale } }) {
     <>
       <Navbar params={params} />
 
-      <MainBanner />
+      <MainBanner params={params} />
 
-      <Services />
+      <Services params={params} />
 
-      <About />
+      <About params={params} />
 
-      <Team />
+      <Team params={params} />
 
-      <OurWorks />
+      <OurWorks params={params} />
 
-      <Partner />
+      <Partner params={params} />
 
-      <Footer />
+      <Footer params={params} />
     </>
   );
 }

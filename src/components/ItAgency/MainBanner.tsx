@@ -2,10 +2,13 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
+import { getDictionary } from "../../get-dictionary";
+import { Locale } from "../../../i18n-config";
 
 import Image from "next/image";
-const MainBanner = () => {
+const MainBanner = async ({ params: { lang } }: { params: { lang: Locale } }) => {
   const [isOpen, setOpen] = React.useState(false);
+  const dictionary = await getDictionary(lang);
 
   const openModal = () => {
     setOpen(true);
@@ -32,13 +35,8 @@ const MainBanner = () => {
                 </div>
                 <div className="col-lg-5">
                   <div className="main-banner-content">
-                    <h1>Nós somos um Time digital</h1>
-                    <p>
-                      Construindo o futuro com tecnologia, inovação e
-                      transformando desafios em oportunidades com a ajuda da
-                      tecnologia.
-                    </p>
-
+                    <h1>{dictionary?.cta.title}</h1>
+                    <p>{dictionary?.cta.text}</p>
                     <div
                       style={{
                         display: "flex",
@@ -52,7 +50,7 @@ const MainBanner = () => {
                         target="_blank"
                       >
                         <i className="icofont-brand-whatsapp"></i>
-                        Contate agora
+                        {dictionary?.cta.button}
                       </a>
                     </div>
                   </div>
