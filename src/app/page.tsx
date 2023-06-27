@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { usePathname } from "next/navigation";
-function app() {
+function App() {
   const pathname = usePathname();
 
   React.useEffect(() => {
@@ -26,4 +26,4 @@ function app() {
   );
 }
 
-export default app;
+export default App;
