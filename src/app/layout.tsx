@@ -1,14 +1,14 @@
-import "../../styles/bootstrap.min.css";
+import "../styles/bootstrap.min.css";
 import "animate.css";
-import "../../styles/icofont.min.css";
-import "../../styles/pe-icon-7-stroke.css";
+import "../styles/icofont.min.css";
+import "../styles/pe-icon-7-stroke.css";
 // import "../node_modules/react-modal-video/css/modal-video.min.css";
 import "react-accessible-accordion/dist/fancy-example.css";
 import "react-image-lightbox/style.css";
-import "../../styles/style.css";
-import "../../styles/responsive.css";
-import "../../styles/rtl.css";
-import { i18n } from "../../../i18n-config";
+import "../styles/style.css";
+import "../styles/responsive.css";
+import "../styles/rtl.css";
+import { i18n } from "../../i18n-config";
 
 export async function generateStaticParams() {
   return i18n.locales.map((locale) => ({ lang: locale }));
