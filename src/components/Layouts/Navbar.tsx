@@ -4,6 +4,7 @@ import React, { useEffect } from "react";
 import Link from "../../utils/ActiveLink";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
 
 const Navbar = async () => {
   const [collapsed, setCollapsed] = React.useState(true);

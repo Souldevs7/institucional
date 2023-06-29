@@ -43,19 +43,19 @@ const About = async () => {
                 <div className="section-title"></div>
 
                 <div className="about-text">
-                  <h4>{t("aboutUs.mission").title}</h4>
-                  <p>{t("aboutUs.mission").text}</p>
+                  <h4>{t("aboutUs.mission.title")}</h4>
+                  <p>{t("aboutUs.mission.text")}</p>
                 </div>
 
                 <div className="about-text">
-                  <h4>{t("aboutUs.vision").title}</h4>
-                  <p>{t("aboutUs.vision").text}</p>
+                  <h4>{t("aboutUs.vision.title")}</h4>
+                  <p>{t("aboutUs.vision.text")}</p>
                 </div>
 
                 <div className="about-text">
-                  <h4>{t("aboutUs.values").title}</h4>
+                  <h4>{t("aboutUs.values.title")}</h4>
 
-                  <p>{t("aboutUs.values").text}</p>
+                  <p>{t("aboutUs.values.text")}</p>
                 </div>
               </div>
             </div>
