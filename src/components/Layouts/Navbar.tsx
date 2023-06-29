@@ -44,31 +44,31 @@ const Navbar = async () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="/#services">
+                  <Link href="#services">
                     <a className="nav-link">{t("services")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/#quemsomos">
+                  <Link href="#quemsomos">
                     <a className="nav-link">{t("who_we_are")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/#portifolio">
+                  <Link href="#portifolio">
                     <a className="nav-link">{t("portfolio")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/#parceiros">
+                  <Link href="#parceiros">
                     <a className="nav-link">{t("partners")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="/#contact">
+                  <Link href="#contact">
                     <a className="nav-link">{t("contact")}</a>
                   </Link>
                 </li>
