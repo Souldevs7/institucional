@@ -2,13 +2,12 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { getDictionary } from "../../get-dictionary";
-import { Locale } from "../../../i18n-config";
 
 import Image from "next/image";
-const MainBanner = async ({ params: { lang } }: { params: { lang: Locale } }) => {
+import { useTranslations } from "next-intl";
+const MainBanner = async () => {
   const [isOpen, setOpen] = React.useState(false);
-  const dictionary = await getDictionary(lang);
+  const t = useTranslations();
 
   const openModal = () => {
     setOpen(true);
@@ -35,8 +34,8 @@ const MainBanner = async ({ params: { lang } }: { params: { lang: Locale } }) =>
                 </div>
                 <div className="col-lg-5">
                   <div className="main-banner-content">
-                    <h1>{dictionary?.cta.title}</h1>
-                    <p>{dictionary?.cta.text}</p>
+                    <h1>{t("cta.title")}</h1>
+                    <p>{t("cta.text")}</p>
                     <div
                       style={{
                         display: "flex",
@@ -50,7 +49,7 @@ const MainBanner = async ({ params: { lang } }: { params: { lang: Locale } }) =>
                         target="_blank"
                       >
                         <i className="icofont-brand-whatsapp"></i>
-                        {dictionary?.cta.button}
+                        {t("cta.button")}
                       </a>
                     </div>
                   </div>

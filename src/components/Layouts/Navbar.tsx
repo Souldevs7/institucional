@@ -3,10 +3,11 @@
 import React, { useEffect } from "react";
 import Link from "../../utils/ActiveLink";
 import Image from "next/image";
-import { getDictionary } from "../../get-dictionary";
-const Navbar = async ({ params: { lang } }: { params: { lang: Locale } }) => {
+import { useTranslations } from "next-intl";
+
+const Navbar = async () => {
   const [collapsed, setCollapsed] = React.useState(true);
-  const dictionary = await getDictionary(lang);
+  const t = useTranslations();
 
   const toggleNavbar = () => {
     setCollapsed((old) => !old);
@@ -43,31 +44,31 @@ const Navbar = async ({ params: { lang } }: { params: { lang: Locale } }) => {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link href="#services">
-                    <a className="nav-link">{dictionary?.services}</a>
+                    <a className="nav-link">{t("services")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#quemsomos">
-                    <a className="nav-link">{dictionary?.who_we_are}</a>
+                    <a className="nav-link">{t("who_we_are")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#portifolio">
-                    <a className="nav-link">{dictionary?.portfolio}</a>
+                    <a className="nav-link">{t("portfolio")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#parceiros">
-                    <a className="nav-link">{dictionary?.partners}</a>
+                    <a className="nav-link">{t("partners")}</a>
                   </Link>
                 </li>
 
                 <li className="nav-item">
                   <Link href="#contact">
-                    <a className="nav-link">{dictionary?.contact}</a>
+                    <a className="nav-link">{t("contact")}</a>
                   </Link>
                 </li>
               </ul>

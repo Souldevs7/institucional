@@ -12,27 +12,26 @@ const Team = dynamic(() => import("../../components/Common/Team"));
 
 const Partner = dynamic(() => import("../../components/Common/Partner"));
 const Footer = dynamic(() => import("../../components/Layouts/Footer"));
-import { Locale } from "../../../i18n-config";
 
 //@ts-ignore
-export default function Home({ params }: { params: { lang: Locale } }) {
+export default function Home() {
   return (
     <>
-      <Navbar params={params} />
+      <Navbar />
 
-      <MainBanner params={params} />
+      <MainBanner />
 
-      <Services params={params} />
+      <Services />
 
-      <About params={params} />
+      <About />
 
-      <Team params={params} />
+      <Team />
 
-      <OurWorks params={params} />
+      <OurWorks />
 
-      <Partner params={params} />
+      <Partner />
 
-      <Footer params={params} />
+      <Footer />
     </>
   );
 }
