@@ -1,10 +1,7 @@
-// @ts-nocheck
-
-import React, { useEffect } from "react";
+import React from "react";
 import Link from "../../utils/ActiveLink";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { usePathname } from "next/navigation";
+import LanguageDropdown from "../../app/[locale]/components/LanguageDropdown";
 
 const Navbar = async () => {
   const [collapsed, setCollapsed] = React.useState(true);
@@ -67,6 +64,7 @@ const Navbar = async () => {
                   </Link>
                 </li>
               </ul>
+              <LanguageDropdown />
             </div>
           </div>
         </nav>
