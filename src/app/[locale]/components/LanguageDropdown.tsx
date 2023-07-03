@@ -6,16 +6,18 @@ const LanguageDropdown = () => {
   const router = useRouter();
   const pathname = usePathname();
 
+  console.log(pathname);
+
   const handleChangeLanguage = (event) => {
+    event?.preventDefault();
     const selectedLocale = event.target.value;
-    console.log(selectedLocale);
     router.push(`${window.location.origin}/${selectedLocale}`);
   };
 
   return (
     <div className="language-dropdown">
       <select
-        value={pathname === "/" ? "br" : "en"}
+        value={pathname === "/en" ? "en" : "br"}
         className="language-dropdown__select"
         onChange={handleChangeLanguage}
       >
