@@ -15,15 +15,13 @@ const Footer = async () => {
             <div className="col-lg-3 col-sm-6">
               <div className="single-footer-widget">
                 <div className="logo">
-                  <Link href="/" legacyBehavior>
-                    <a>
-                      <Image
-                        src="https://soudevs.online/admin/media/logo/souldevs-logo_white.svg"
-                        width="320"
-                        height="100"
-                        alt="image"
-                      />
-                    </a>
+                  <Link href="#navbar">
+                    <Image
+                      src="https://soudevs.online/admin/media/logo/souldevs-logo_white.svg"
+                      width="320"
+                      height="100"
+                      alt="image"
+                    />
                   </Link>
                 </div>
                 <p style={{ color: "#eceeef" }}>
