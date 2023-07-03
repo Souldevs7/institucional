@@ -13,7 +13,17 @@ const ActiveLink: React.FC<ActiveLinkProps & React.ComponentProps<Link>> = ({
   activeClassName,
   ...props
 }) => {
-  return <Link {...props}>{children}</Link>;
+  const handleClick = (e) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute("href");
+    const targetElement = document.querySelector(targetId);
+    targetElement.scrollIntoView({ behavior: "smooth" });
+  };
+  return (
+    <Link {...props} onClick={handleClick}>
+      {children}
+    </Link>
+  );
 };
 
 export default ActiveLink;
