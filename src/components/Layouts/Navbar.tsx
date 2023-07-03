@@ -31,7 +31,7 @@ const Navbar = async () => {
               className={classTwo}
               type="button"
               data-toggle="collapse"
-              data-target="#navbarSupportedContent"
+              data-target="navbarSupportedContent"
               aria-controls="navbarSupportedContent"
               aria-expanded="false"
               aria-label="Toggle navigation"
@@ -44,32 +44,32 @@ const Navbar = async () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="#services">
-                    <a className="nav-link">{t("services")}</a>
+                  <Link className="nav-link" href="#services">
+                    {t("services")}
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#quemsomos">
-                    <a className="nav-link">{t("who_we_are")}</a>
+                  <Link className="nav-link" href="#quemsomos">
+                    {t("who_we_are")}
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#portifolio">
-                    <a className="nav-link">{t("portfolio")}</a>
+                  <Link className="nav-link" href="#portifolio">
+                    {t("portfolio")}
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#parceiros">
-                    <a className="nav-link">{t("partners")}</a>
+                  <Link className="nav-link" href="#parceiros">
+                    {t("partners")}
                   </Link>
                 </li>
 
                 <li className="nav-item">
-                  <Link href="#contact">
-                    <a className="nav-link">{t("contact")}</a>
+                  <Link className="nav-link" href="#contact">
+                    {t("contact")}
                   </Link>
                 </li>
               </ul>

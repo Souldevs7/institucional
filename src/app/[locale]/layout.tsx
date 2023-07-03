@@ -63,7 +63,7 @@ export default async function RootLayout({
         className={`${inter.variable} ${saira.variable} ${openSans.variable}`}
         style={{ overflowX: "hidden", padding: "0 0 0 0" }}
       >
-        <NextIntlClientProvider locale={locale} messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages ?? {}}>
           {children}
         </NextIntlClientProvider>
       </body>

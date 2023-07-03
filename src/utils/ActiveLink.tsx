@@ -7,24 +7,13 @@ type ActiveLinkProps = {
   activeClassName: string;
 };
 
-const ActiveLink: React.FC<ActiveLinkProps> = ({
+const ActiveLink: React.FC<ActiveLinkProps & React.ComponentProps<Link>> = ({
   to,
   children,
   activeClassName,
   ...props
 }) => {
-  const child = React.Children.only(children);
-
-  let className = child.props.className || "";
-  if (to === props.to && activeClassName) {
-    className = `${className} ${activeClassName}`.trim();
-  }
-
-  return (
-    <Link to={props.to} legacyBehavior {...props}>
-      {React.cloneElement(child, { className })}
-    </Link>
-  );
+  return <Link {...props}>{children}</Link>;
 };
 
 export default ActiveLink;
