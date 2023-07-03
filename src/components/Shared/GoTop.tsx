@@ -1,52 +1,36 @@
 //@ts-nocheck
-import React, { Component } from "react";
-export default class GoTop extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      is_visible: false,
-    };
-  }
+import React, { useState, useEffect } from "react";
+export const GoTop = () => {
+  const [is_visible, setVisible] = useState(false);
 
-  componentDidMount() {
-    var scrollComponent = this;
-    document.addEventListener("scroll", function (e) {
-      scrollComponent.toggleVisibility();
-    });
-  }
-
-  toggleVisibility() {
+  function toggleVisibility() {
     if (window.pageYOffset > 300) {
-      this.setState({
-        is_visible: true,
-      });
+      setVisible(true);
     } else {
-      this.setState({
-        is_visible: false,
-      });
+      setVisible(false);
     }
   }
 
-  scrollToTop() {
+  useEffect(() => {
+    document.addEventListener("scroll", function (e) {
+      toggleVisibility();
+    });
+  }, []);
+
+  function scrollToTop() {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   }
 
-  render() {
-    const { is_visible } = this.state;
-    return (
-      <>
-        <div className="scroll-to-top">
-          {is_visible && (
-            <i
-              className="pe-7s-angle-up"
-              onClick={() => this.scrollToTop()}
-            ></i>
-          )}
-        </div>
-      </>
-    );
-  }
-}
+  return (
+    <>
+      <div className="scroll-to-top">
+        {is_visible && <i className="pe-7s-angle-up" onClick={scrollToTop}></i>}
+      </div>
+    </>
+  );
+};
+
+export default GoTop;

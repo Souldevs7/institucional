@@ -21,7 +21,7 @@ const Team = async () => {
           <p>{t("ourTeam.text")}</p>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src={Felipe}
@@ -46,7 +46,7 @@ const Team = async () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src="/images/team/junior.jpg"
@@ -76,7 +76,7 @@ const Team = async () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src="/images/team/mayke.jpg"
@@ -106,7 +106,7 @@ const Team = async () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src="/images/team/thiago.jpeg"
@@ -136,7 +136,7 @@ const Team = async () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src="/images/team/vinicius.jpeg"
@@ -167,7 +167,7 @@ const Team = async () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3 col-sm-6">
+          <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
                 src="/images/team/will.jpeg"

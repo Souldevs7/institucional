@@ -66,12 +66,6 @@ const Navbar = async () => {
                     {t("partners")}
                   </Link>
                 </li>
-
-                <li className="nav-item">
-                  <Link className="nav-link" href="#contact">
-                    {t("contact")}
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>

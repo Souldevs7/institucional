@@ -41,7 +41,8 @@ const Footer = async () => {
                 <ul className="get-in-touch">
                   <li>
                     <a
-                      href="tel:+55 31 98897-7180"
+                      target="_blank"
+                      href="https://wa.me/5531988977180?text=Ol%C3%A1%2C+tudo+bem%3F+Preciso+falar+sobre+um+desenvolvimento+de+TI"
                       style={{ color: "#eceeef" }}
                     >
                       +55 31 98897-7180

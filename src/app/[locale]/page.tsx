@@ -10,6 +10,8 @@ const Services = dynamic(() => import("../../components/DefaultHome/Services"));
 
 const Team = dynamic(() => import("../../components/Common/Team"));
 
+const GoTop = dynamic(() => import("../../components/Shared/GoTop"));
+
 const Partner = dynamic(() => import("../../components/Common/Partner"));
 const Footer = dynamic(() => import("../../components/Layouts/Footer"));
 
@@ -30,7 +32,7 @@ export default function Home() {
       <OurWorks />
 
       <Partner />
-
+      <GoTop />
       <Footer />
     </>
   );
