@@ -2,12 +2,6 @@
 import React, { Component } from "react";
 import Image from "next/image";
 
-import Thiago from "../../../public/images/team/thiago.jpeg";
-import William from "../../../public/images/team/will.jpeg";
-import Vinicius from "../../../public/images/team/vinicius.jpeg";
-import Felipe from "../../../public/images/team/felipe.jpeg";
-import Junior from "../../../public/images/team/junior.jpg";
-import Mayk from "../../../public/images/team/mayke.jpg";
 import { useTranslations } from "next-intl";
 
 const Team = async () => {
@@ -24,7 +18,7 @@ const Team = async () => {
           <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
-                src={Felipe}
+                src="/images/team/felipe.jpeg"
                 alt="Imagem do Felipe"
                 className="rounded-circle img-fluid"
                 width="300"

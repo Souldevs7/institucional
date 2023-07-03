@@ -1,7 +1,7 @@
 import React from "react";
-import Link from "../../utils/ActiveLink";
+import Link from "../../../utils/ActiveLink";
 import { useTranslations } from "next-intl";
-import LanguageDropdown from "../../app/[locale]/components/LanguageDropdown";
+import LanguageDropdown from "./LanguageDropdown";
 
 const Navbar = async () => {
   const [collapsed, setCollapsed] = React.useState(true);

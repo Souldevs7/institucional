@@ -1,18 +1,21 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { locales } from "../../../locales/locales";
-import { useRouter } from "next/navigation";
+import { useRouter, usePathname } from "next/navigation";
 
 const LanguageDropdown = () => {
   const router = useRouter();
+  const pathname = usePathname();
 
   const handleChangeLanguage = (event) => {
     const selectedLocale = event.target.value;
-    router.push(router.pathname, router.asPath, { locale: selectedLocale });
+    console.log(selectedLocale);
+    router.push(`${window.location.origin}/${selectedLocale}`);
   };
 
   return (
     <div className="language-dropdown">
       <select
+        value={pathname === "/" ? "br" : "en"}
         className="language-dropdown__select"
         onChange={handleChangeLanguage}
       >

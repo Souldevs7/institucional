@@ -1,19 +1,17 @@
 "use client";
 import dynamic from "next/dynamic";
-const Navbar = dynamic(() => import("../../components/Layouts/Navbar"));
-const MainBanner = dynamic(
-  () => import("../../components/ItAgency/MainBanner")
-);
-const About = dynamic(() => import("../../components/DefaultHome/About"));
-const OurWorks = dynamic(() => import("../../components/DefaultHome/OurWorks"));
-const Services = dynamic(() => import("../../components/DefaultHome/Services"));
+const Navbar = dynamic(() => import("./components/Navbar"));
+const MainBanner = dynamic(() => import("./components/MainBanner"));
+const About = dynamic(() => import("./components/About"));
+const OurWorks = dynamic(() => import("./components/OurWorks"));
+const Services = dynamic(() => import("./components/Services"));
 
-const Team = dynamic(() => import("../../components/Common/Team"));
+const Team = dynamic(() => import("./components/Team"));
 
-const GoTop = dynamic(() => import("../../components/Shared/GoTop"));
+const GoTop = dynamic(() => import("./components/GoTop"));
 
-const Partner = dynamic(() => import("../../components/Common/Partner"));
-const Footer = dynamic(() => import("../../components/Layouts/Footer"));
+const Partner = dynamic(() => import("./components/Partner"));
+const Footer = dynamic(() => import("./components/Footer"));
 
 //@ts-ignore
 export default function Home() {
