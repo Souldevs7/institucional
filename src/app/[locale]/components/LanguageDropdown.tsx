@@ -6,8 +6,6 @@ const LanguageDropdown = () => {
   const router = useRouter();
   const pathname = usePathname();
 
-  console.log(pathname);
-
   const handleChangeLanguage = (event) => {
     event?.preventDefault();
     const selectedLocale = event.target.value;
