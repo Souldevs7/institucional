@@ -103,67 +103,6 @@ const Team = async () => {
           <div className="col-lg-4 col-sm-6">
             <div className="team-card text-center">
               <Image
-                src="/images/team/thiago.jpeg"
-                alt="Imagem do Thiago"
-                className="rounded-circle img-fluid"
-                width="300"
-                height="300"
-              />
-              <div className="team-caption">
-                <h3>Thiago Pê</h3>
-                <p>{t("ourTeam.membersPosition.thiago")}</p>
-                <ul>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/thiago-borges-b230b7141/"
-                      target="_blank"
-                    >
-                      <i className="icofont-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/IDarkLoad" target="_blank">
-                      <i className="icofont-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6">
-            <div className="team-card text-center">
-              <Image
-                src="/images/team/vinicius.jpeg"
-                alt="Imagem do Vinicius"
-                className="rounded-circle img-fluid"
-                width="300"
-                height="300"
-                unoptimized
-              />
-              <div className="team-caption">
-                <h3>Vinicius Borges</h3>
-                <p>{t("ourTeam.membersPosition.vinicius")}</p>
-                <ul>
-                  <li>
-                    <a
-                      href="https://www.linkedin.com/in/vinicius-p%C3%AA-borges-baab17191/"
-                      target="_blank"
-                    >
-                      <i className="icofont-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/TheVinizzz" target="_blank">
-                      <i className="icofont-github"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-sm-6">
-            <div className="team-card text-center">
-              <Image
                 src="/images/team/will.jpeg"
                 alt="Imagem do William"
                 className="rounded-circle img-fluid"
